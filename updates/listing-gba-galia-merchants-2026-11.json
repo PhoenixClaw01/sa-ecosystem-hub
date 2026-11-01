@@ -1,0 +1,44 @@
+{
+  "payload": {
+    "v": 1,
+    "id": "listing-gba-galia-merchants-2026-11",
+    "created_at": "2026-11-01T03:35:46.910Z",
+    "author": "G2PhCi6MApcuC6f5o2CDQBWDnJt9hRcozHuuN55PYisU",
+    "kind": "listing",
+    "body": "Curator listing: Galia Merchants. GBA member, hybrid business. Published by Phoenix Collective (Falkor's team) from public links the Founder supplied. Other links: X https://x.com/GaliaMerchants · Discord https://discord.gg/N8qeHwYwp2",
+    "refs": {
+      "pip": null,
+      "txs": []
+    },
+    "prev": "ab319079887d2c04b297b49e309f593c482e7ef78c297f9d9044618951e7b401",
+    "listing": {
+      "stream": "hybrid",
+      "category": "ip_and_business",
+      "title": "Galia Merchants",
+      "owner": "Galia Merchants",
+      "url": "https://galiamerchants.com/",
+      "offerText": "We create custom merch and fully-hosted online merch stores for Web3 companies. Est. 2023 · Team: FowlAC, StacheAttack, Krigs.",
+      "verifyLiveNote": "Check details on the project's own pages before you act.",
+      "status": "available",
+      "asOf": "2026-10-31",
+      "expiresAt": "2027-01-29",
+      "ownershipProof": {
+        "method": "signer_review",
+        "evidenceRef": "Curator listing: Phoenix Collective checked this public link on 2026-10-31. Not signed or endorsed by Galia Merchants."
+      },
+      "image": {
+        "url": "logos/galia-merchants.png",
+        "alt": "Galia Merchants logo",
+        "link": "https://galiamerchants.com/"
+      },
+      "listingId": "galia-merchants"
+    }
+  },
+  "signature": "5nwq2TvVCEa4h2NxtDzaijFTVSNfSeFYJi7sVHtz7pXM8a36ymXPJcTGRJr3Y7j1Cp9SPjMoHNWCsUrfabFg4NiT",
+  "approvals": [
+    {
+      "publicKey": "G2PhCi6MApcuC6f5o2CDQBWDnJt9hRcozHuuN55PYisU",
+      "signature": "5eW8EDN7Syqzh2BYS5cH7Rio2JHxAkj8TUp4WqVNXGuhhUS686nwPWsorJXtkFphf4CiWu6S8YM449AZUFAzAyxK"
+    }
+  ]
+}
