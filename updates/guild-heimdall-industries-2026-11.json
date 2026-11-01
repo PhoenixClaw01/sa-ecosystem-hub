@@ -1,0 +1,36 @@
+{
+  "payload": {
+    "v": 1,
+    "id": "guild-heimdall-industries-2026-11",
+    "created_at": "2026-11-01T03:35:50.461Z",
+    "author": "G2PhCi6MApcuC6f5o2CDQBWDnJt9hRcozHuuN55PYisU",
+    "kind": "guild",
+    "body": "Guild listing: Heimdall Industries. Published by Phoenix Collective (Falkor's team) from the guild's own public text (shortened, verbatim excerpts; full text in ORIGINALS.md), supplied by the Founder.\n\nLeader:@! ᚺEIM | VɪᴋɪɴɢᴇɴBᴇɴɴʏ\n\nHeimdall Industries is an ancient corporation with deep roots from the Viking Age.\n\nWe are a Ustur faction guild heavily focused on the industrial side of Star Atlas. Our goal is to supply the Ustur faction with the best technology and ships in Galia to ensure our faction's success.\n\nWe've been cooperating as a guild and crafted multiple ships since beginning of SAGE:LABS. This allows smaller players to take part in something larger than themselves they normally wouldn't be able to.\n\nIN ODIN WE TRUST!\n\nLinks to Valhalla: Discord: https://discord.gg/zRUVmmV3XC Twitter: https://x.com/Heimdallatlas",
+    "refs": {
+      "pip": null,
+      "txs": []
+    },
+    "prev": "890a93e4eb6d4f113bf07eb5e52c2762bdad5685a45928732b3e8b5f17c99c2c",
+    "guild": {
+      "name": "Heimdall Industries",
+      "description": "Heimdall Industries is an ancient corporation with deep roots from the Viking Age.",
+      "links": [
+        "https://discord.gg/zRUVmmV3XC",
+        "https://x.com/Heimdallatlas"
+      ],
+      "image": {
+        "url": "logos/heimdall-industries.png",
+        "alt": "Heimdall Industries logo",
+        "link": "https://discord.gg/zRUVmmV3XC"
+      },
+      "discord": "https://discord.gg/zRUVmmV3XC"
+    }
+  },
+  "signature": "48eAhfySuDEgGSujWAxjxiogxJyFnUSUMPfJ7jRF81ds3rtaEBQdDNicso75qcEnKV1erFHBPSezc2FiYnuASkYx",
+  "approvals": [
+    {
+      "publicKey": "G2PhCi6MApcuC6f5o2CDQBWDnJt9hRcozHuuN55PYisU",
+      "signature": "2J2XrsCCQERyx6LNgiWhJ7NpA15U9JYkwc4szw3V9FsD6T58fAVv13FrvP2WQMxSuqge9H4pouduTe453x7LS3Ps"
+    }
+  ]
+}
