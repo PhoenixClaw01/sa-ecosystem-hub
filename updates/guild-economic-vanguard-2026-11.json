@@ -30,6 +30,10 @@
     {
       "publicKey": "G2PhCi6MApcuC6f5o2CDQBWDnJt9hRcozHuuN55PYisU",
       "signature": "5Juyy4Qdm25NsMRgouC3FQKcvmdZ1SEyd47pmgy4v3dr4VUVXzYYbb1sUc7gw96cXb2zwoTBX3KvBWhRvEmGDrvP"
+    },
+    {
+      "publicKey": "FC1eRr99GGJZuc4KZeUivBpbSMGvjcBB839KaEfAuhcq",
+      "signature": "2Qu6DXqg9b1RQ3Vz4Agb1siE2BPNWF9VJ9uG99om28s7ygo6uP5qV2GDUZaRM11GLKxTTLJ2K8xtc3S9Gjh5rsvN"
     }
   ]
 }
