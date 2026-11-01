@@ -1,0 +1,44 @@
+{
+  "payload": {
+    "v": 1,
+    "id": "listing-gba-super-phoenix-sports-2026-11",
+    "created_at": "2026-11-01T03:35:48.983Z",
+    "author": "G2PhCi6MApcuC6f5o2CDQBWDnJt9hRcozHuuN55PYisU",
+    "kind": "listing",
+    "body": "Curator listing: Super Phoenix Sports. Published by Phoenix Collective (Falkor's team) from text and public links the Founder supplied. Other links: X https://x.com/SuperPhoenixSPS",
+    "refs": {
+      "pip": null,
+      "txs": []
+    },
+    "prev": "b6d6d47861099d06f94983748fa62236796985ff97a5f4f2587359964821d02c",
+    "listing": {
+      "stream": "hybrid",
+      "category": "ip_and_business",
+      "title": "Super Phoenix Sports",
+      "owner": "Super Phoenix Sports",
+      "url": "https://www.superphoenixsports.com/",
+      "offerText": "Global esports & entertainment company producing live tournaments, weekly broadcasts, interactive community events across the competitive gaming landscape.",
+      "verifyLiveNote": "Check details on the project's own pages before you act.",
+      "status": "available",
+      "asOf": "2026-10-31",
+      "expiresAt": "2027-01-29",
+      "ownershipProof": {
+        "method": "signer_review",
+        "evidenceRef": "Curator listing: Phoenix Collective checked this public link on 2026-10-31. Not signed or endorsed by Super Phoenix Sports."
+      },
+      "image": {
+        "url": "logos/super-phoenix-sports.jpg",
+        "alt": "Super Phoenix Sports logo",
+        "link": "https://www.superphoenixsports.com/"
+      },
+      "listingId": "super-phoenix-sports"
+    }
+  },
+  "signature": "vZ5QvwsT8A3S5tyJDRaVwJuJUnYJv6dSR7r7Eoxh4qgf9sdDQxYk3UhYAaG2pCNhJ5za9D48YJSiYe6FgVWbyD9",
+  "approvals": [
+    {
+      "publicKey": "G2PhCi6MApcuC6f5o2CDQBWDnJt9hRcozHuuN55PYisU",
+      "signature": "nnY6FvPrbbyCCD8y5d9PvQgK4KtgzAamd4KB7vivZ3WeDc2STRR3bkBxJwaJfZdbDdMRkWsuw9KmXppWNm2bYY2"
+    }
+  ]
+}
