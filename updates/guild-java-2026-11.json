@@ -1,0 +1,35 @@
+{
+  "payload": {
+    "v": 1,
+    "id": "guild-java-2026-11",
+    "created_at": "2026-11-01T03:35:50.882Z",
+    "author": "G2PhCi6MApcuC6f5o2CDQBWDnJt9hRcozHuuN55PYisU",
+    "kind": "guild",
+    "body": "Guild listing: JaVa. Published by Phoenix Collective (Falkor's team) from the guild's own public text (shortened, verbatim excerpts; full text in ORIGINALS.md), supplied by the Founder.\n\n- We are military Syndicate of the Ustur faction\n\n- We invite you to join our guild, even if there is no large fleet, you can start from scratch - we will help you with information and share our experience.\n\nGuild/dac leader @[JaVa] VARDO\n\nGuild/dac Discord link https://discord.gg/UUVqDxXtH9",
+    "refs": {
+      "pip": null,
+      "txs": []
+    },
+    "prev": "bdecd94051665019a04fd184e71b360d32cab056b5f01f0c45f482ae7deb16ba",
+    "guild": {
+      "name": "JaVa",
+      "description": "We are military Syndicate of the Ustur faction",
+      "links": [
+        "https://discord.gg/UUVqDxXtH9"
+      ],
+      "image": {
+        "url": "logos/java.png",
+        "alt": "JaVa logo",
+        "link": "https://discord.gg/UUVqDxXtH9"
+      },
+      "discord": "https://discord.gg/UUVqDxXtH9"
+    }
+  },
+  "signature": "4UTW723Hc7HVJaqixcx7AhkY6SABZnqs89G83BSKh7MKV74pHrvdBSAjrZWdcuHJ8ExtcJwqnm79gTcGKeTtVoLp",
+  "approvals": [
+    {
+      "publicKey": "G2PhCi6MApcuC6f5o2CDQBWDnJt9hRcozHuuN55PYisU",
+      "signature": "2nB9Z79N4SgJPuZpF8yFZR4GhCQ255svkCCm1JJcUdj8YwPWjKqTTxtLQZarhqDPzMFxoUEYVoLbW49XBYBcr5ez"
+    }
+  ]
+}
