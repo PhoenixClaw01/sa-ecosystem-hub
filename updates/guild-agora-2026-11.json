@@ -1,0 +1,35 @@
+{
+  "payload": {
+    "v": 1,
+    "id": "guild-agora-2026-11",
+    "created_at": "2026-11-01T03:35:49.252Z",
+    "author": "G2PhCi6MApcuC6f5o2CDQBWDnJt9hRcozHuuN55PYisU",
+    "kind": "guild",
+    "body": "Guild listing: Ágora. Published by Phoenix Collective (Falkor's team) from the guild's own public text (shortened, verbatim excerpts; full text in ORIGINALS.md), supplied by the Founder.\n\nÁgora – Crescimento colaborativo no Star Atlas. 🚀\n\nGuild Leaders: @[Λ] Sawyn [BR] and @[Λ] Neo_AArmstrong [EC]\n\nBem-vindos à Ágora, uma guilda colaborativa no Star Atlas onde jogadores se unem para crescer juntos em um universo complexo e cheio de oportunidades.\n\n✅ Aprendizado contínuo – Desde novatos até veteranos, todos têm espaço para evoluir com tutoriais, lives e discussões estratégicas.\n\n✅ Cooperação eficiente – Logística otimizada, movimentações em grupo e suporte coletivo para maximizar resultados.\n\nDiscord link: https://discord.gg/69HsqtZ22N",
+    "refs": {
+      "pip": null,
+      "txs": []
+    },
+    "prev": "7c742771b516aa4194674e53582cdaa44773485a4e5b5a4a4d33bb471312d9e2",
+    "guild": {
+      "name": "Ágora",
+      "description": "Ágora – Crescimento colaborativo no Star Atlas. 🚀",
+      "links": [
+        "https://discord.gg/69HsqtZ22N"
+      ],
+      "image": {
+        "url": "logos/agora.png",
+        "alt": "Ágora logo",
+        "link": "https://discord.gg/69HsqtZ22N"
+      },
+      "discord": "https://discord.gg/69HsqtZ22N"
+    }
+  },
+  "signature": "5ij34Fi2fwxiAaZzfNxV2UiPp1tvPqsXUHnTGZCyEd9a9sfvZnttW8YS39WkFSVLZRxFMW4ut28HRE8nugo7zhf3",
+  "approvals": [
+    {
+      "publicKey": "G2PhCi6MApcuC6f5o2CDQBWDnJt9hRcozHuuN55PYisU",
+      "signature": "hFYMYwyuWxqzYZsA3FJejkzn3gyxHnATtwCSyWB7AHrvdCTfUhkvJfsLm83GkJ8tHzgo1cZRRH9SfYJ96t3ziTq"
+    }
+  ]
+}
