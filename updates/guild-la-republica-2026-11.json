@@ -1,0 +1,35 @@
+{
+  "payload": {
+    "v": 1,
+    "id": "guild-la-republica-2026-11",
+    "created_at": "2026-11-01T03:35:51.019Z",
+    "author": "G2PhCi6MApcuC6f5o2CDQBWDnJt9hRcozHuuN55PYisU",
+    "kind": "guild",
+    "body": "Guild listing: La República. Published by Phoenix Collective (Falkor's team) from the guild's own public text (shortened, verbatim excerpts; full text in ORIGINALS.md), supplied by the Founder.\n\nLeaders: DRUMCARL05 and OmarAristó\n\nUn próspero gremio de habla hispana en la facción MUD, donde la exploración espacial se encuentra con el dominio estratégico del mercado cripto.\n\n(La República is the Spanish-speaking division of DEEP Profits, a guild in the MUD faction of Star Atlas. We combine in-depth market analysis with a passion for exploration in the metaverse, offering a tight-knit community for those seeking meaningful gameplay and strategic investment insights. Join us in navigating the stars and the crypto world!)\n\nJoin: https://discord.gg/FKCaMYW5rU",
+    "refs": {
+      "pip": null,
+      "txs": []
+    },
+    "prev": "1790dfc34d8b5431fc1c7ce80d0f2e779f4863c8ae4acbb9f6da222ec7fd055c",
+    "guild": {
+      "name": "La República",
+      "description": "Un próspero gremio de habla hispana en la facción MUD, donde la exploración espacial se encuentra con el dominio estratégico del mercado cripto. (A thriving Spanish-speaking guild in the MUD faction, where space exploration meets strategic crypto market mastery.)",
+      "links": [
+        "https://discord.gg/FKCaMYW5rU"
+      ],
+      "image": {
+        "url": "logos/la-republica.png",
+        "alt": "La República logo",
+        "link": "https://discord.gg/FKCaMYW5rU"
+      },
+      "discord": "https://discord.gg/FKCaMYW5rU"
+    }
+  },
+  "signature": "2Ryi3dH5QUEAXsHPMJ3ztNZqxfQDhdjytQReFBXPYYnezrsRhtqVG65tbez7PkboKYRk6KjW6X7jeZ5jDqDUuJQe",
+  "approvals": [
+    {
+      "publicKey": "G2PhCi6MApcuC6f5o2CDQBWDnJt9hRcozHuuN55PYisU",
+      "signature": "5Ywo1jW3kDMXz8MT5LA85Pnsk3i7BQ4t7423H6nHGyLfN8ExGhhfskwNWweFYDpr8VRSNgLt1JmpUoBQGedMr2yB"
+    }
+  ]
+}
