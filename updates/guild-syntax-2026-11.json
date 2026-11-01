@@ -1,0 +1,35 @@
+{
+  "payload": {
+    "v": 1,
+    "id": "guild-syntax-2026-11",
+    "created_at": "2026-11-01T03:35:52.451Z",
+    "author": "G2PhCi6MApcuC6f5o2CDQBWDnJt9hRcozHuuN55PYisU",
+    "kind": "guild",
+    "body": "Guild listing: SYNTAX. Published by Phoenix Collective (Falkor's team) from the guild's own public text, supplied by the Founder.\n\nLeader: @[SYN] Electric5heep \n\nA Decentralized Autonomous Corporation (DAC) in the Star Atlas Metaverse focusing on Data Running / Stealth / Private Contracts / Exploration.\n\nOur goal is twofold; First, to provide a stable home and like-minded community for those looking for a structured guild with leadership to support new players. Second, to acquire a strong reputation within the metaverse through critical alliances and profitability by having Data Running at the forefront of our activities.\n\nDiscord link: https://discord.gg/tGVfKESSZq",
+    "refs": {
+      "pip": null,
+      "txs": []
+    },
+    "prev": "c622f047607f1dc12c40b4ac8372d1bccf8433d04f026e2fe3e7484a7b8d4687",
+    "guild": {
+      "name": "SYNTAX",
+      "description": "A Decentralized Autonomous Corporation (DAC) in the Star Atlas Metaverse focusing on Data Running / Stealth / Private Contracts / Exploration.",
+      "links": [
+        "https://discord.gg/tGVfKESSZq"
+      ],
+      "image": {
+        "url": "logos/syntax.png",
+        "alt": "SYNTAX logo",
+        "link": "https://discord.gg/tGVfKESSZq"
+      },
+      "discord": "https://discord.gg/tGVfKESSZq"
+    }
+  },
+  "signature": "2S2kujjnH1PhYB8zTXWeTpK9jomK64Xf3HpRrWhXX9LkYfL86Tkidvwvz5HuM4xAYRWvePfce5QnLR3Kx8Zx8LMF",
+  "approvals": [
+    {
+      "publicKey": "G2PhCi6MApcuC6f5o2CDQBWDnJt9hRcozHuuN55PYisU",
+      "signature": "2ZtsyqCrhVDnXSFMzAA6VhjWTcDomAPsehd8Vgg7fj9HcZsuxKhjRSt7ynC8QTmxkJ5LCU86tq6oYw9U5p4KwDAY"
+    }
+  ]
+}
