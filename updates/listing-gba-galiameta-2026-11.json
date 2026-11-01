@@ -1,0 +1,44 @@
+{
+  "payload": {
+    "v": 1,
+    "id": "listing-gba-galiameta-2026-11",
+    "created_at": "2026-11-01T03:35:47.047Z",
+    "author": "G2PhCi6MApcuC6f5o2CDQBWDnJt9hRcozHuuN55PYisU",
+    "kind": "listing",
+    "body": "Curator listing: GaliaMeta. GBA member, hybrid business. Published by Phoenix Collective (Falkor's team) from public links the Founder supplied. Other links: X https://x.com/GaliaMeta · YouTube https://www.youtube.com/@Falkor_ROME",
+    "refs": {
+      "pip": null,
+      "txs": []
+    },
+    "prev": "39d32b2f5332cb9e1a76faa7998474756b268c9f7b05b6875f32acfb5b0b89af",
+    "listing": {
+      "stream": "hybrid",
+      "category": "ip_and_business",
+      "title": "GaliaMeta",
+      "owner": "GaliaMeta",
+      "url": "https://galiameta.carrd.co/",
+      "offerText": "GaliaMeta is a DAC for Star Atlas career photographers. We drive real world revenue for our members through free hosted galleries with fine art printing and global shipping. Est. 2023 · Team: Falkor, Mikatachan, TeNet, Onizuka.",
+      "verifyLiveNote": "Check details on the project's own pages before you act.",
+      "status": "available",
+      "asOf": "2026-10-31",
+      "expiresAt": "2027-01-29",
+      "ownershipProof": {
+        "method": "signer_review",
+        "evidenceRef": "Curator listing: Phoenix Collective checked this public link on 2026-10-31. Not signed or endorsed by GaliaMeta."
+      },
+      "image": {
+        "url": "logos/galiameta.png",
+        "alt": "GaliaMeta logo",
+        "link": "https://galiameta.carrd.co/"
+      },
+      "listingId": "galiameta"
+    }
+  },
+  "signature": "5uVmp1UV22KRqobjCGWHe9UCVR6WCJgTevjEeyVbqZJXFLdxLpMdJsAuv8PWWX9arCWAoC6pfCLJ56scmZ6fKeef",
+  "approvals": [
+    {
+      "publicKey": "G2PhCi6MApcuC6f5o2CDQBWDnJt9hRcozHuuN55PYisU",
+      "signature": "3yuW4dAL9SGgqGko1cMYHgUxYvP4cmSZ5sY4yYKPQ8gmyvngU9u7Pyn8BCfLcizEMxRyL3aRzAuLPWso4MK1KNoH"
+    }
+  ]
+}
