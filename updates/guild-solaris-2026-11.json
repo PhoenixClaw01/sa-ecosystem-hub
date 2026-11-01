@@ -1,0 +1,38 @@
+{
+  "payload": {
+    "v": 1,
+    "id": "guild-solaris-2026-11",
+    "created_at": "2026-11-01T03:35:52.041Z",
+    "author": "G2PhCi6MApcuC6f5o2CDQBWDnJt9hRcozHuuN55PYisU",
+    "kind": "guild",
+    "body": "Guild listing: Solaris. Published by Phoenix Collective (Falkor's team) from the guild's own public text, supplied by the Founder.\n\nSolaris, Plus qu'une guilde, une destinée.\n\nLeader: @*Solaris*Mikelmarcus \n\nA tous les francophones, nous sommes Solaris !\n\nUne aventure qui allie plaisir et performance.\nNotre volonté est de briller dans l'univers de Star Atlas et au-delà !\nNous sommes multi factions,  Mud, Ustur ou Oni tu es le bienvenue\nQue tu sois Investisseur, Joueur ou quelque part entre les deux, notre guilde est faite pour tous.\nJeune pilote ou gestionnaire néophyte, nous t'accompagnons dans ta découverte.\nAlors décides de qui tu veux être et prend ta place dans la Lumière des Solars !\n\nRejoins nous et deviens un Solar !\n\nSite web : https://solaris-qtt.com/\n\nX : https://x.com/SOLARIS_byQtt\n\nYouTube : https://www.youtube.com/@solarisqtt\n\nDiscord link: https://discord.gg/vECEHD6GdJ",
+    "refs": {
+      "pip": null,
+      "txs": []
+    },
+    "prev": "d03f6f3f261503adb01bc8f6f8d19a7d6429257c365322b74165b705188e3dd8",
+    "guild": {
+      "name": "Solaris",
+      "description": "Solaris, Plus qu'une guilde, une destinée.",
+      "links": [
+        "https://x.com/SOLARIS_byQtt",
+        "https://www.youtube.com/@solarisqtt",
+        "https://discord.gg/vECEHD6GdJ"
+      ],
+      "image": {
+        "url": "logos/solaris.png",
+        "alt": "Solaris logo",
+        "link": "https://solaris-qtt.com/"
+      },
+      "site": "https://solaris-qtt.com/",
+      "discord": "https://discord.gg/vECEHD6GdJ"
+    }
+  },
+  "signature": "3JSr7Q8rZAW62H6ipHCzKDR91XgHvsN5yo3oUrhut7dm677V2b2KDL4T9sqdoJDAmMX13ExwxCbT2f7M7qg6x1N1",
+  "approvals": [
+    {
+      "publicKey": "G2PhCi6MApcuC6f5o2CDQBWDnJt9hRcozHuuN55PYisU",
+      "signature": "4TbbKW1tHjE55zHoppJ4Zz3ZvmiQUx9DEPQBPppJ6PUcDSg2M1eGEJGyUbKMvRRduKxQ3Nztiih85hBfiA6LSMQH"
+    }
+  ]
+}
