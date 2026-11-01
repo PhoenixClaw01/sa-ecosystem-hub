@@ -1,0 +1,35 @@
+{
+  "payload": {
+    "v": 1,
+    "id": "guild-aephia-industries-2026-11",
+    "created_at": "2026-11-01T03:35:49.117Z",
+    "author": "G2PhCi6MApcuC6f5o2CDQBWDnJt9hRcozHuuN55PYisU",
+    "kind": "guild",
+    "body": "Guild listing: Aephia Industries. Published by Phoenix Collective (Falkor's team) from the guild's own public text (shortened, verbatim excerpts; full text in ORIGINALS.md), supplied by the Founder.\n\nLeadership: @[AEP] Funcracker, @[AEP] Viktor, and @[AEP] Dez\n\nFrom Rock to Rocket — The #1 ship manufacturing guild in the Star Atlas Metaverse with branches in all 3 factions.\n\nAephia’s mission is clear: to become the premier manufacturer and seller of in-game spaceships, a vital and complex (to produce) asset in the game’s universe. Through our members’ combined resources, expertise, and industrial capabilities, we will produce top-tier ships to power the in-game economy.\n\nDiscord: https://discord.gg/aephia",
+    "refs": {
+      "pip": null,
+      "txs": []
+    },
+    "prev": "2a6c91710824e0c4f0dc4f46bc458448139f82846af6e02ca679aa03ac7dff24",
+    "guild": {
+      "name": "Aephia Industries",
+      "description": "From Rock to Rocket — The #1 ship manufacturing guild in the Star Atlas Metaverse with branches in all 3 factions.",
+      "links": [
+        "https://discord.gg/aephia"
+      ],
+      "image": {
+        "url": "logos/aephia-industries.png",
+        "alt": "Aephia Industries logo",
+        "link": "https://discord.gg/aephia"
+      },
+      "discord": "https://discord.gg/aephia"
+    }
+  },
+  "signature": "2Y1cH1P3FLipBvyt6BHHsoqv3paVUXyR3EGQHp7YLD7Q7DDSMYH12rpwyd5MtgsXUmM5EmHu74hs2fanbKUtCpPj",
+  "approvals": [
+    {
+      "publicKey": "G2PhCi6MApcuC6f5o2CDQBWDnJt9hRcozHuuN55PYisU",
+      "signature": "2NwgB9yAFx4KbnANPQB3aL84dRVo9mqNGyknM9xfmjtSdCXmq9gHEYSLeKkeVzgkUJDvt4M8oHuG3bucG21pPYsv"
+    }
+  ]
+}
