@@ -1,0 +1,44 @@
+{
+  "payload": {
+    "v": 1,
+    "id": "listing-gba-empiria-88-2026-11",
+    "created_at": "2026-11-01T03:35:46.654Z",
+    "author": "G2PhCi6MApcuC6f5o2CDQBWDnJt9hRcozHuuN55PYisU",
+    "kind": "listing",
+    "body": "Curator listing: Empiria-88. GBA member, hybrid business. Published by Phoenix Collective (Falkor's team) from public links the Founder supplied.",
+    "refs": {
+      "pip": null,
+      "txs": []
+    },
+    "prev": "58cd66e85d44886ff33e1d3a86d1fc22757fa184e668dcb7ad5a8aeeb6655e73",
+    "listing": {
+      "stream": "hybrid",
+      "category": "ip_and_business",
+      "title": "Empiria-88",
+      "owner": "Empiria-88",
+      "url": "https://x.com/LordRaspyIII",
+      "offerText": "Wholly owned subsidiary of Neuro Block Game Assets (NBGA). Our primary in-game goal is to expand and participate in all aspects of the game except political. Est. 2024 · Team: LordRaspyIII.",
+      "verifyLiveNote": "Check details on the project's own pages before you act.",
+      "status": "available",
+      "asOf": "2026-10-31",
+      "expiresAt": "2027-01-29",
+      "ownershipProof": {
+        "method": "signer_review",
+        "evidenceRef": "Curator listing: Phoenix Collective checked this public link on 2026-10-31. Not signed or endorsed by Empiria-88."
+      },
+      "image": {
+        "url": "logos/empiria-88.jpg",
+        "alt": "Empiria-88 logo",
+        "link": "https://x.com/LordRaspyIII"
+      },
+      "listingId": "empiria-88"
+    }
+  },
+  "signature": "67BzNmk32KpvwMPTaprfTJLhhXr8Nviuo5LkjS1sGHPSzsHNgDBh6ivHHChaG9nqnPwUVYb1izjjL4gv1vs7oWyr",
+  "approvals": [
+    {
+      "publicKey": "G2PhCi6MApcuC6f5o2CDQBWDnJt9hRcozHuuN55PYisU",
+      "signature": "2WqX5SzTGRKuosnSe9RW28XM43LjtWGTgvAhn5H4Exyc7uTjk6Wdvhmh9XTG5hPZvN9SueeU7oDsxTTCrvYEWy8V"
+    }
+  ]
+}
