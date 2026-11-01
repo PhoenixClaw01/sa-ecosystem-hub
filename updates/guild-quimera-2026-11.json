@@ -1,0 +1,36 @@
+{
+  "payload": {
+    "v": 1,
+    "id": "guild-quimera-2026-11",
+    "created_at": "2026-11-01T03:35:51.435Z",
+    "author": "G2PhCi6MApcuC6f5o2CDQBWDnJt9hRcozHuuN55PYisU",
+    "kind": "guild",
+    "body": "Guild listing: Quimera. Published by Phoenix Collective (Falkor's team) from the guild's own public text (shortened, verbatim excerpts; full text in ORIGINALS.md), supplied by the Founder.\n\nA Next-Generation Clan in the Metaverse\n\nLeader: @Q | Brujo\n\nQuimera is a next-generation clan currently undergoing decentralization, designed to be a collective asset owned by all its members.\n\nOur vision: To become an innovative and efficient guild capable of successfully tackling the challenges of the metaverse.\n\nFurthermore, we aim to take the gaming experience to the next level by organizing local tournaments and competitions using the tools and dynamics offered by Star Atlas.\n\n🔗 Twitter https://x.com/Quimera__SA\n\n🔗 Discord https://discord.gg/MG44B9RRF8",
+    "refs": {
+      "pip": null,
+      "txs": []
+    },
+    "prev": "9a1b67b5d1e1993621c58e9b459844fd8c09db4adfceb349d76b102900edbf74",
+    "guild": {
+      "name": "Quimera",
+      "description": "A Next-Generation Clan in the Metaverse",
+      "links": [
+        "https://x.com/Quimera__SA",
+        "https://discord.gg/MG44B9RRF8"
+      ],
+      "image": {
+        "url": "logos/quimera.png",
+        "alt": "Quimera logo",
+        "link": "https://discord.gg/MG44B9RRF8"
+      },
+      "discord": "https://discord.gg/MG44B9RRF8"
+    }
+  },
+  "signature": "aCtM6FyEs9rH855WNxqpBzLoDfzjNZkG3YDEdEAootUJ4RMfzo7B47hp5tmC6aprwmtncHHL8htofdTXbsRtXWD",
+  "approvals": [
+    {
+      "publicKey": "G2PhCi6MApcuC6f5o2CDQBWDnJt9hRcozHuuN55PYisU",
+      "signature": "4xpzVCChmDH8rNKLAuyv7hViyMTtoZj3sucjZ5s3CrHFXKtLNQFDaZnLEDdTF4tEEFP9VTfmfbXEJRipf2M1WRV2"
+    }
+  ]
+}
