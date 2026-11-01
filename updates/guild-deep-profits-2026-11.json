@@ -1,0 +1,35 @@
+{
+  "payload": {
+    "v": 1,
+    "id": "guild-deep-profits-2026-11",
+    "created_at": "2026-11-01T03:35:49.784Z",
+    "author": "G2PhCi6MApcuC6f5o2CDQBWDnJt9hRcozHuuN55PYisU",
+    "kind": "guild",
+    "body": "Guild listing: DEEP Profits. Published by Phoenix Collective (Falkor's team) from the guild's own public text, supplied by the Founder.\n\nLeader: Digital Fists\n\nWe are a community of Star Atlas experts, professional investors, and digital asset managers.\n\nWhether you are an experienced crypto investor or someone eager to learn, DEEP Profits is the DAC for you. Our focus on finance, crypto, and returns on investment ensures you have the best opportunities to grow and succeed in the Metaverse.\n\nDiscord: https://discord.gg/c9Yq9kQyWD ",
+    "refs": {
+      "pip": null,
+      "txs": []
+    },
+    "prev": "116523f3b62d6faa4365d4342fb19f93a4d916b98b7bf3d73b270d9a3e89046a",
+    "guild": {
+      "name": "DEEP Profits",
+      "description": "We are a community of Star Atlas experts, professional investors, and digital asset managers.",
+      "links": [
+        "https://discord.gg/c9Yq9kQyWD"
+      ],
+      "image": {
+        "url": "logos/deep-profits.png",
+        "alt": "DEEP Profits logo",
+        "link": "https://discord.gg/c9Yq9kQyWD"
+      },
+      "discord": "https://discord.gg/c9Yq9kQyWD"
+    }
+  },
+  "signature": "2q5md7dUk8jEFJd65SAqSnWPGSiYtzPKxSR5bSEi9rLLZKsVQC6QkB39VEVwfoZ5fNpprgPNNadL2C6uwK7PoCtS",
+  "approvals": [
+    {
+      "publicKey": "G2PhCi6MApcuC6f5o2CDQBWDnJt9hRcozHuuN55PYisU",
+      "signature": "4NqQ3rcBgS7f6vsznt9frC1kWELDdnLzbtF98EBdeh79TuCZupp3JHbawDGjyxXmk5fvzRS7B6wWtieJq9j3Y2oy"
+    }
+  ]
+}
