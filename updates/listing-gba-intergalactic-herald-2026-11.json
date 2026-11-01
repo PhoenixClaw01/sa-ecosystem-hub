@@ -1,0 +1,44 @@
+{
+  "payload": {
+    "v": 1,
+    "id": "listing-gba-intergalactic-herald-2026-11",
+    "created_at": "2026-11-01T03:35:47.426Z",
+    "author": "G2PhCi6MApcuC6f5o2CDQBWDnJt9hRcozHuuN55PYisU",
+    "kind": "listing",
+    "body": "Curator listing: Intergalactic Herald. GBA member, hybrid business. Published by Phoenix Collective (Falkor's team) from public links the Founder supplied. Other links: X https://x.com/InterGalHerald",
+    "refs": {
+      "pip": null,
+      "txs": []
+    },
+    "prev": "b61c5da447f3c979d8ec2e8ca68df2265e3f99a4202c65c0d342d2f4e9ca5121",
+    "listing": {
+      "stream": "hybrid",
+      "category": "ip_and_business",
+      "title": "Intergalactic Herald",
+      "owner": "Intergalactic Herald",
+      "url": "https://intergalacticherald.com/",
+      "offerText": "Content creation effort related to beginner guides, with a weekly news recap email newsletter and podcast. Est. 2022 · Team: Matt.",
+      "verifyLiveNote": "Check details on the project's own pages before you act.",
+      "status": "available",
+      "asOf": "2026-10-31",
+      "expiresAt": "2027-01-29",
+      "ownershipProof": {
+        "method": "signer_review",
+        "evidenceRef": "Curator listing: Phoenix Collective checked this public link on 2026-10-31. Not signed or endorsed by Intergalactic Herald."
+      },
+      "image": {
+        "url": "logos/intergalactic-herald.jpg",
+        "alt": "Intergalactic Herald logo",
+        "link": "https://intergalacticherald.com/"
+      },
+      "listingId": "intergalactic-herald"
+    }
+  },
+  "signature": "5KZWJUBeVPNH78sWPttnDxfTV8VasAdZuw8j6LYuN8qATKM6eJ2i7i4HXghYMqERgaumcThi1epXe4rc8kGsQFpS",
+  "approvals": [
+    {
+      "publicKey": "G2PhCi6MApcuC6f5o2CDQBWDnJt9hRcozHuuN55PYisU",
+      "signature": "4SDfAn6mX6hYodkt6YbxjELBfWStAJu5geEviRsiQ3yNt5vLTbWmnk99cJ8hFnxupseoyg9pQ3xpYxCNha5TyJ3Q"
+    }
+  ]
+}
