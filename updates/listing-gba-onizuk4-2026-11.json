@@ -1,0 +1,44 @@
+{
+  "payload": {
+    "v": 1,
+    "id": "listing-gba-onizuk4-2026-11",
+    "created_at": "2026-11-01T03:35:47.940Z",
+    "author": "G2PhCi6MApcuC6f5o2CDQBWDnJt9hRcozHuuN55PYisU",
+    "kind": "listing",
+    "body": "Curator listing: Onizuk4. GBA member, hybrid business. Published by Phoenix Collective (Falkor's team) from public links the Founder supplied. Other links: X https://x.com/OniZuK4Eikichi · YouTube https://www.youtube.com/@ONIZUK4INKICHI · TikTok https://www.tiktok.com/@onizuk4_eikichi · Instagram https://www.instagram.com/onizuk4_inkichi/",
+    "refs": {
+      "pip": null,
+      "txs": []
+    },
+    "prev": "5fbaf2e85dd34c1209cfb2135a8ff83a6e1471552ffc9c2f4599bffee6d32565",
+    "listing": {
+      "stream": "hybrid",
+      "category": "creators",
+      "title": "Onizuk4",
+      "owner": "Onizuk4",
+      "url": "https://onizuk4staratlas.netlify.app/",
+      "offerText": "Metaverse photographer, Joni Award nominated video.",
+      "verifyLiveNote": "Check details on the project's own pages before you act.",
+      "status": "available",
+      "asOf": "2026-10-31",
+      "expiresAt": "2027-01-29",
+      "ownershipProof": {
+        "method": "signer_review",
+        "evidenceRef": "Curator listing: Phoenix Collective checked this public link on 2026-10-31. Not signed or endorsed by Onizuk4."
+      },
+      "image": {
+        "url": "logos/onizuk4.jpg",
+        "alt": "Onizuk4 logo",
+        "link": "https://onizuk4staratlas.netlify.app/"
+      },
+      "listingId": "onizuk4"
+    }
+  },
+  "signature": "2b9gJdUsqV1FMTmPdYNQFcdYVEUzuB4kTW58nLS3rxmYUbJtChHP3Rp58wqoVF4MgBpecdJ3DrS6ze6WWqKpzArB",
+  "approvals": [
+    {
+      "publicKey": "G2PhCi6MApcuC6f5o2CDQBWDnJt9hRcozHuuN55PYisU",
+      "signature": "2p9bcShPR5NN26XBXFcP62vvxncrTJq22RQgASjWJYGhbc4CDU4LdAFfyecu1zkzyrgtKSuERFoLicXuKZb2h59Q"
+    }
+  ]
+}
