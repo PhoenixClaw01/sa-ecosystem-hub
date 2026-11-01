@@ -1,0 +1,44 @@
+{
+  "payload": {
+    "v": 1,
+    "id": "listing-gba-subverted-norms-2026-11",
+    "created_at": "2026-11-01T03:35:48.725Z",
+    "author": "G2PhCi6MApcuC6f5o2CDQBWDnJt9hRcozHuuN55PYisU",
+    "kind": "listing",
+    "body": "Curator listing: Subverted Norms. GBA member, hybrid business. Published by Phoenix Collective (Falkor's team) from public links the Founder supplied. Other links: X https://x.com/SubvertedN",
+    "refs": {
+      "pip": null,
+      "txs": []
+    },
+    "prev": "9981fc948669435ca2f10d0c062fb99c866b1371bea3e1c9d33e8c78f464b63a",
+    "listing": {
+      "stream": "hybrid",
+      "category": "ip_and_business",
+      "title": "Subverted Norms",
+      "owner": "Subverted Norms",
+      "url": "https://subvertednorms.com/",
+      "offerText": "A DAC of programmers and designers that can support you with the creation of a custom website, dApp or eCommerce stores. Team: Norms.",
+      "verifyLiveNote": "Check details on the project's own pages before you act.",
+      "status": "available",
+      "asOf": "2026-10-31",
+      "expiresAt": "2027-01-29",
+      "ownershipProof": {
+        "method": "signer_review",
+        "evidenceRef": "Curator listing: Phoenix Collective checked this public link on 2026-10-31. Not signed or endorsed by Subverted Norms."
+      },
+      "image": {
+        "url": "logos/subverted-norms.png",
+        "alt": "Subverted Norms logo",
+        "link": "https://subvertednorms.com/"
+      },
+      "listingId": "subverted-norms"
+    }
+  },
+  "signature": "4WAtKF7EMguAq7hWaDBGLTkxrzLkRbzmJLSaJb8vhFRgEeaQDjizGvVSLCptJAAhWk7jQcEReEpZXQuySv6TX4nv",
+  "approvals": [
+    {
+      "publicKey": "G2PhCi6MApcuC6f5o2CDQBWDnJt9hRcozHuuN55PYisU",
+      "signature": "Ek4dbLEQWKxb7tTzWevoizAdeGirnPm1Teqizkn5siEPGNcKGo679tAnqEH7gps8PLmycuVTfLrRUMQXwY7wreK"
+    }
+  ]
+}
