@@ -1,0 +1,39 @@
+{
+  "payload": {
+    "v": 1,
+    "id": "listing-gba-intergalactic-gear-2026-11",
+    "created_at": "2026-11-01T03:35:47.300Z",
+    "author": "G2PhCi6MApcuC6f5o2CDQBWDnJt9hRcozHuuN55PYisU",
+    "kind": "listing",
+    "body": "Curator listing: Intergalactic Gear. GBA member, hybrid business. Published by Phoenix Collective (Falkor's team) from public links the Founder supplied. Other links: X https://x.com/InterGalGear",
+    "refs": {
+      "pip": null,
+      "txs": []
+    },
+    "prev": "22c5ba2dabe479d241089f628adb73a62ae2ad876823b756614f5dd6812eb1e8",
+    "listing": {
+      "stream": "hybrid",
+      "category": "ip_and_business",
+      "title": "Intergalactic Gear",
+      "owner": "Intergalactic Gear",
+      "url": "https://intergalacticgear.com/",
+      "offerText": "Merch store. Est. 2023 · Team: Matt.",
+      "verifyLiveNote": "Check details on the project's own pages before you act.",
+      "status": "available",
+      "asOf": "2026-10-31",
+      "expiresAt": "2027-01-29",
+      "ownershipProof": {
+        "method": "signer_review",
+        "evidenceRef": "Curator listing: Phoenix Collective checked this public link on 2026-10-31. Not signed or endorsed by Intergalactic Gear."
+      },
+      "listingId": "intergalactic-gear"
+    }
+  },
+  "signature": "28Z8JEzwHZwYMZLS6Zgd7KDVCzj7WeyF5FrCnzYmsrj11Rv9GjA6R8LJUD5JGSaMtDKG19tVYTfcCQA8oWCeBpwq",
+  "approvals": [
+    {
+      "publicKey": "G2PhCi6MApcuC6f5o2CDQBWDnJt9hRcozHuuN55PYisU",
+      "signature": "5heGz26L68NLjiDxKZaVUSqb1TfqCYxQGNbsxhZz8VSnN8cGmPZf6g8P7Kkah3EoQLCjx8RtS5DqKwwYkYQ31ZHa"
+    }
+  ]
+}
