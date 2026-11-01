@@ -1,0 +1,5 @@
+# Local working drafts. Never pushed. Signed copies go in updates/.
+drafts/
+*.keypair.json
+.env*
+.DS_Store

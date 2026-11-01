@@ -1,0 +1,16 @@
+{
+  "id": "listing-your-project-YYYY-MM",
+  "body": "Listing: Your Project. Proposed by <your name or handle>.",
+  "listing": {
+    "stream": "irl",
+    "category": "ip_and_business",
+    "title": "Your Project",
+    "owner": "Your Project",
+    "url": "https://your-project.example/",
+    "offerText": "One or two plain sentences about what you offer. No prices or financial claims.",
+    "verifyLiveNote": "Check details on our own page before you act.",
+    "status": "available",
+    "asOf": "YYYY-MM-DD",
+    "expiresAt": "YYYY-MM-DD"
+  }
+}

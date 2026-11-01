@@ -1,0 +1,24 @@
+{
+  "_PENDING": "PLANNED SHAPE ONLY. Listing types, image and discord are in an in-flight sa-ecosystem-node PR (pending merge). Field names may change in review. This file will not validate until that release lands; use TEMPLATE.listing.json today. Delete keys starting with _ before validating.",
+  "id": "listing-guild-your-guild-YYYY-MM",
+  "body": "Guild listing: Your Guild. Proposed by <guild leader name or handle>.",
+  "listing": {
+    "type": "guild",
+    "stream": "irl",
+    "category": "guilds_and_dacs",
+    "title": "Your Guild",
+    "owner": "Your Guild",
+    "url": "https://your-guild.example/",
+    "discord": "https://discord.gg/your-invite",
+    "image": {
+      "url": "https://your-guild.example/logo.png",
+      "alt": "Your Guild logo",
+      "link": "https://your-guild.example/"
+    },
+    "offerText": "One or two plain sentences about the guild. No prices or financial claims.",
+    "verifyLiveNote": "Check details on the guild's own page before you act.",
+    "status": "available",
+    "asOf": "YYYY-MM-DD",
+    "expiresAt": "YYYY-MM-DD"
+  }
+}
