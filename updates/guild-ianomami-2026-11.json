@@ -1,0 +1,35 @@
+{
+  "payload": {
+    "v": 1,
+    "id": "guild-ianomami-2026-11",
+    "created_at": "2026-11-01T03:35:50.600Z",
+    "author": "G2PhCi6MApcuC6f5o2CDQBWDnJt9hRcozHuuN55PYisU",
+    "kind": "guild",
+    "body": "Guild listing: IANOMAMI. Published by Phoenix Collective (Falkor's team) from the guild's own public text, supplied by the Founder.\n\nLeader: GRANA S/A\n\nNascidos da Amazônia, exploramos o cosmos com a força das estrelas e a sabedoria da nossa terra. //Born from the Amazon, we explore the cosmos with the strength of the stars and the wisdom of our land.\n\nSomos uma DAC originária da Amazônia, especificamente em Raposa Serra do Sol. Por milhares de anos, as estrelas têm sido nossos guias, e com elas, desenvolvemos uma profunda familiaridade. Sabemos exatamente onde cada uma se encontra nesse vasto universo. Para nós, explorar o cosmos é um desafio menor, pois já estamos acostumados às dificuldades da exploração, algo que faz parte da nossa essência. Temos uma grande professora que nos ensinou muito: a Amazônia.\n\nhttps://discord.gg/BTQ4Shf2bA ",
+    "refs": {
+      "pip": null,
+      "txs": []
+    },
+    "prev": "fae15bbd5bdc9913dfd367629f629d3b8768d7a247e7620f82e65cdcd87e8a20",
+    "guild": {
+      "name": "IANOMAMI",
+      "description": "Nascidos da Amazônia, exploramos o cosmos com a força das estrelas e a sabedoria da nossa terra. //Born from the Amazon, we explore the cosmos with the strength of the stars and the wisdom of our land.",
+      "links": [
+        "https://discord.gg/BTQ4Shf2bA"
+      ],
+      "image": {
+        "url": "logos/ianomami.png",
+        "alt": "IANOMAMI logo",
+        "link": "https://discord.gg/BTQ4Shf2bA"
+      },
+      "discord": "https://discord.gg/BTQ4Shf2bA"
+    }
+  },
+  "signature": "3G2eQpuv9drB8ti5KQkGoNuQEtC9xje7G1PQ7nuhpdZiL3wJZZ7sB1QiVtnF8kUzePhMH5dsU92pLwgiE2GFHJKC",
+  "approvals": [
+    {
+      "publicKey": "G2PhCi6MApcuC6f5o2CDQBWDnJt9hRcozHuuN55PYisU",
+      "signature": "43XjcyUFRT7JngZPnV8rT728YfxKFkYTyMkssxoo7oVhFxg1SkntxbWvMxyUrArJEPcrzRjHdK3uEkMowMF4MZBx"
+    }
+  ]
+}
