@@ -1,0 +1,44 @@
+{
+  "payload": {
+    "v": 1,
+    "id": "listing-gba-atlas-net-2026-11",
+    "created_at": "2026-11-01T03:35:46.278Z",
+    "author": "G2PhCi6MApcuC6f5o2CDQBWDnJt9hRcozHuuN55PYisU",
+    "kind": "listing",
+    "body": "Curator listing: Atlas Net. GBA member, hybrid business. Published by Phoenix Collective (Falkor's team) from public links the Founder supplied.",
+    "refs": {
+      "pip": null,
+      "txs": []
+    },
+    "prev": "b15db68fda66a3a7044dd0251fef341c7a12cc65bd21bf3cf48b3443996e6bf7",
+    "listing": {
+      "stream": "hybrid",
+      "category": "ip_and_business",
+      "title": "Atlas Net",
+      "owner": "Atlas Net",
+      "url": "https://x.com/AtlasNet_",
+      "offerText": "Star Atlas content at your fingertips. Est. 2025 · Team: Eoganacht, BULK.",
+      "verifyLiveNote": "Check details on the project's own pages before you act.",
+      "status": "available",
+      "asOf": "2026-10-31",
+      "expiresAt": "2027-01-29",
+      "ownershipProof": {
+        "method": "signer_review",
+        "evidenceRef": "Curator listing: Phoenix Collective checked this public link on 2026-10-31. Not signed or endorsed by Atlas Net."
+      },
+      "image": {
+        "url": "logos/atlas-net.jpg",
+        "alt": "Atlas Net logo",
+        "link": "https://x.com/AtlasNet_"
+      },
+      "listingId": "atlas-net"
+    }
+  },
+  "signature": "LdxuTeLezyWX2rqRR3igaV5Q67DodRz5Fxe3gcVJjFmEuDcS2fAkkKPSrbBvZcpmdA4XuGTsez7JfLE8Sgk1aRX",
+  "approvals": [
+    {
+      "publicKey": "G2PhCi6MApcuC6f5o2CDQBWDnJt9hRcozHuuN55PYisU",
+      "signature": "3t5aQGJEdHMaQrntdejM5JcWqybs6PhdMR6WHeFoaQHM5U51SNTCzNqxXCnwrvWoKaGjmNJ5NE5rFeDKW9VD7J5A"
+    }
+  ]
+}
