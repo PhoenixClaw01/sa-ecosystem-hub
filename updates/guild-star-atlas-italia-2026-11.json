@@ -1,0 +1,35 @@
+{
+  "payload": {
+    "v": 1,
+    "id": "guild-star-atlas-italia-2026-11",
+    "created_at": "2026-11-01T03:35:52.315Z",
+    "author": "G2PhCi6MApcuC6f5o2CDQBWDnJt9hRcozHuuN55PYisU",
+    "kind": "guild",
+    "body": "Guild listing: Star Atlas Italia. Published by Phoenix Collective (Falkor's team) from the guild's own public text (shortened, verbatim excerpts; full text in ORIGINALS.md), supplied by the Founder.\n\nLeader: @[SAI]Quickbit\n\nConoscenza è Potere.Condividere è Progresso.\n\nKnowledge is Power. Sharing is Progress.\n\nNational DAO that unites the three factions in Provinces of the mega Italian Republic of the Metaverse. Founded in 2022, at the dawn of the Cosmic Cataclysm, SAI has become a recognized and appreciated reality throughout Galia for its famous and appreciated services, instruments and tools accessible to all communities.\n\n🌌 Free Support: We welcome and support all Italian-speaking Atlassians who approach the Star Atlas Metaverse. You will never be alone in the cosmic cold!\n\nhttps://discord.gg/tn6UZkDWCg",
+    "refs": {
+      "pip": null,
+      "txs": []
+    },
+    "prev": "a96fe40ea4ea79a94c32dfb0be252cd6d757294c137f6f65f8a38291be2d49d1",
+    "guild": {
+      "name": "Star Atlas Italia",
+      "description": "Conoscenza è Potere.Condividere è Progresso.",
+      "links": [
+        "https://discord.gg/tn6UZkDWCg"
+      ],
+      "image": {
+        "url": "logos/star-atlas-italia.png",
+        "alt": "Star Atlas Italia logo",
+        "link": "https://discord.gg/tn6UZkDWCg"
+      },
+      "discord": "https://discord.gg/tn6UZkDWCg"
+    }
+  },
+  "signature": "2RYG6WNgrTYtxSuY6Uhy36thMgAVkfYtP4pMb51Y1xhYQB9FW3wYJdeQx4WXKryFq7YzpCsEpVF4UYgKWLS4Co4V",
+  "approvals": [
+    {
+      "publicKey": "G2PhCi6MApcuC6f5o2CDQBWDnJt9hRcozHuuN55PYisU",
+      "signature": "zF9bqLRMn2fRqhzQ3J1vEBHFnbuJ2Ex245aYMots6e2zQV7ofS3GY3tgRNqNCqDUJXg2kHh5CVSMt39hdFeAu2A"
+    }
+  ]
+}
