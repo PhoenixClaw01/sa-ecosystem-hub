@@ -1,0 +1,37 @@
+{
+  "payload": {
+    "v": 1,
+    "id": "guild-coexist-2026-11",
+    "created_at": "2026-11-01T03:35:49.514Z",
+    "author": "G2PhCi6MApcuC6f5o2CDQBWDnJt9hRcozHuuN55PYisU",
+    "kind": "guild",
+    "body": "Guild listing: Coexist. Published by Phoenix Collective (Falkor's team) from the guild's own public text (shortened, verbatim excerpts; full text in ORIGINALS.md), supplied by the Founder.\n\nTürk topluluğunu tek çatı altında birleştiren Star Atlas odaklı Gamer klanız.\n\nLiderler: NDR, Gecefeneri, Lumina\nFaction: ONI\nFaaliyet Alanları: Madencilik, Taşımacılık, PvP/PvE, Ödül Avcılığı ve Rekabetçi E-Spor Kariyerleri\n\nBirlikte Varız, Birlikte Güçlüyüz – Bu bizim için sadece bir motto değil, kim olduğumuzun temelini oluşturuyor.\n\nDiscord: https://discord.gg/guildcoexist\nX: https://x.com/GuildCoexist\nTelegram: https://t.me/+SZsJXL9IgcU1NjVh",
+    "refs": {
+      "pip": null,
+      "txs": []
+    },
+    "prev": "d381918382c16f7e0cb6bb59476a0005ba25e3589cc476acd8545177f6ae7900",
+    "guild": {
+      "name": "Coexist",
+      "description": "Türk topluluğunu tek çatı altında birleştiren Star Atlas odaklı Gamer klanız.",
+      "links": [
+        "https://discord.gg/guildcoexist",
+        "https://x.com/GuildCoexist",
+        "https://t.me/+SZsJXL9IgcU1NjVh"
+      ],
+      "image": {
+        "url": "logos/coexist.png",
+        "alt": "Coexist logo",
+        "link": "https://discord.gg/guildcoexist"
+      },
+      "discord": "https://discord.gg/guildcoexist"
+    }
+  },
+  "signature": "5qEZt8ZnbXhfk9NtNZ1WpSwktMWj4JqZ4hD9fRTK6feRQrs8XmZ5jM8fGHG9bHrHx99GCNP4xPKToc2nMzxuSATU",
+  "approvals": [
+    {
+      "publicKey": "G2PhCi6MApcuC6f5o2CDQBWDnJt9hRcozHuuN55PYisU",
+      "signature": "4XWBktHMHoQNgDFnvCY186bUA6nMTy4HpEPBUXshVyT3ttyTwJZNv6wv6XHjiLysJAknBWBFYzVm6ZFpVcJu7Zup"
+    }
+  ]
+}
