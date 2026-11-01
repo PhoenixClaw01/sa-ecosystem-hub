@@ -1,0 +1,35 @@
+{
+  "payload": {
+    "v": 1,
+    "id": "guild-narasimha-machine-2026-11",
+    "created_at": "2026-11-01T03:35:51.160Z",
+    "author": "G2PhCi6MApcuC6f5o2CDQBWDnJt9hRcozHuuN55PYisU",
+    "kind": "guild",
+    "body": "Guild listing: Narasimha Machine. Published by Phoenix Collective (Falkor's team) from the guild's own public text (shortened, verbatim excerpts; full text in ORIGINALS.md), supplied by the Founder.\n\nLeader: @[NM] Québec Libre\n\n⚠️ The Narashimha Machine is a virtual death cult. We are aligned with the ECOS faction and our only objective is total annihilation of the MUD.\n\n⚠️ Founded by redneck Québécois, our Machine is a very casual environment.\n\nCome to me through fire and war.\n☢️ https://discord.com/invite/B2V7eAxxKU",
+    "refs": {
+      "pip": null,
+      "txs": []
+    },
+    "prev": "ef81c8ccfd18cd22615ea514c79df71342c36c12246f8e4bb841f3e1fb8116d5",
+    "guild": {
+      "name": "Narasimha Machine",
+      "description": "⚠️ The Narashimha Machine is a virtual death cult. We are aligned with the ECOS faction and our only objective is total annihilation of the MUD. To reach this objective we are willing to work whit all Oni and Uster warmongers aswell as pirates and criminal organizations.",
+      "links": [
+        "https://discord.com/invite/B2V7eAxxKU"
+      ],
+      "image": {
+        "url": "logos/narasimha-machine.jpg",
+        "alt": "Narasimha Machine logo",
+        "link": "https://discord.com/invite/B2V7eAxxKU"
+      },
+      "discord": "https://discord.com/invite/B2V7eAxxKU"
+    }
+  },
+  "signature": "dPhMFNSs9a4CvWzPVkrL9W7XWwQGnERmgufYHugUFN8sVet5RbitYahngBdrN5qJqvc3vCspC45zeFipbsfdyqD",
+  "approvals": [
+    {
+      "publicKey": "G2PhCi6MApcuC6f5o2CDQBWDnJt9hRcozHuuN55PYisU",
+      "signature": "keKiuyoy7zeUkqhLrDRYwLfMbH3W7btSmJBe3dYi3D6BpyebyWqF4yaaGzVemQEUF1Wrtru6686XSPmyi7tsZC9"
+    }
+  ]
+}
