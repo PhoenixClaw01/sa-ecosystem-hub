@@ -1,0 +1,35 @@
+{
+  "payload": {
+    "v": 1,
+    "id": "guild-shadow-loyal-2026-11",
+    "created_at": "2026-11-01T03:35:51.767Z",
+    "author": "G2PhCi6MApcuC6f5o2CDQBWDnJt9hRcozHuuN55PYisU",
+    "kind": "guild",
+    "body": "Guild listing: Shadow Loyal. Published by Phoenix Collective (Falkor's team) from the guild's own public text (shortened, verbatim excerpts; full text in ORIGINALS.md), supplied by the Founder.\n\nLeader: None\n\nThe primary goal of the Shadow Loyal is to ensure freedom and equal opportunity for all Galians. This may come in the form of training and information sharing, or it may involve infiltration, espionage, and sabotage.\n\nWe are analysts, builders and innovators. As opportunity arises, we hope to contribute to the community in the form of knowledge sharing, strategic advice, and game-enhancing tools.\n\nJoin SLY today!\n\nhttps://discord.gg/DCD9CuJFRr",
+    "refs": {
+      "pip": null,
+      "txs": []
+    },
+    "prev": "3fac01985cb4c26dee8cded46481046b1b5cf6d28bc1e4d5cc818ebb3cc9acff",
+    "guild": {
+      "name": "Shadow Loyal",
+      "description": "The primary goal of the Shadow Loyal is to ensure freedom and equal opportunity for all Galians.",
+      "links": [
+        "https://discord.gg/DCD9CuJFRr"
+      ],
+      "image": {
+        "url": "logos/shadow-loyal.png",
+        "alt": "Shadow Loyal logo",
+        "link": "https://discord.gg/DCD9CuJFRr"
+      },
+      "discord": "https://discord.gg/DCD9CuJFRr"
+    }
+  },
+  "signature": "39Qo6vFu7BbXpkLD9a5PHRLwj122mCgAWSAA3gTkJHgZgboBkG6h8BcwxhEMYVxrR4pL2JesnVzpZo518oAWB29Q",
+  "approvals": [
+    {
+      "publicKey": "G2PhCi6MApcuC6f5o2CDQBWDnJt9hRcozHuuN55PYisU",
+      "signature": "22C9VAHxrecVcQVkTdQVF33QW4NH21bjU7bJcimSxggSLupAZsujF96HczDRf2Nr28FyH4jw1oeTqRSWK796viPn"
+    }
+  ]
+}
