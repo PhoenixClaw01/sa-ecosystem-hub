@@ -1,0 +1,44 @@
+{
+  "payload": {
+    "v": 1,
+    "id": "listing-gba-pantheon-2026-11",
+    "created_at": "2026-11-01T03:35:48.069Z",
+    "author": "G2PhCi6MApcuC6f5o2CDQBWDnJt9hRcozHuuN55PYisU",
+    "kind": "listing",
+    "body": "Curator listing: Pantheon. GBA member, hybrid business. Published by Phoenix Collective (Falkor's team) from public links the Founder supplied.",
+    "refs": {
+      "pip": null,
+      "txs": []
+    },
+    "prev": "1d3162ae50756de49130ab48cb0188f79d2eec40166a5de99c3d9b600a5aac7f",
+    "listing": {
+      "stream": "hybrid",
+      "category": "ip_and_business",
+      "title": "Pantheon",
+      "owner": "Pantheon",
+      "url": "https://discord.gg/3ZzybxSj8d",
+      "offerText": "Cultivating competitive spirits. Est. 2023 · Team: General Cooper.",
+      "verifyLiveNote": "Check details on the project's own pages before you act.",
+      "status": "available",
+      "asOf": "2026-10-31",
+      "expiresAt": "2027-01-29",
+      "ownershipProof": {
+        "method": "signer_review",
+        "evidenceRef": "Curator listing: Phoenix Collective checked this public link on 2026-10-31. Not signed or endorsed by Pantheon."
+      },
+      "image": {
+        "url": "logos/pantheon.jpg",
+        "alt": "Pantheon logo",
+        "link": "https://discord.gg/3ZzybxSj8d"
+      },
+      "listingId": "pantheon"
+    }
+  },
+  "signature": "4Tr2iK27JpDGbYiNzCymM5yx9epBkRq3rpzdxnwrsyd5SWXFBt35ATVK53JxSz1zLAAHMhpH5UJSveHqPbJeaVxD",
+  "approvals": [
+    {
+      "publicKey": "G2PhCi6MApcuC6f5o2CDQBWDnJt9hRcozHuuN55PYisU",
+      "signature": "2SM2t1JuW27fP53jtTT9RtKXxJBoSTBBRo5LYpxy6S8fD7n6bV2XdF7NVBRyY6zYn7g7R1z2qTWP8opNWCthXQRG"
+    }
+  ]
+}
