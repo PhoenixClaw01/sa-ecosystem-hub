@@ -1,0 +1,35 @@
+{
+  "payload": {
+    "v": 1,
+    "id": "guild-the-unseen-2026-11",
+    "created_at": "2026-11-01T03:35:52.726Z",
+    "author": "G2PhCi6MApcuC6f5o2CDQBWDnJt9hRcozHuuN55PYisU",
+    "kind": "guild",
+    "body": "Guild listing: The Unseen. Published by Phoenix Collective (Falkor's team) from the guild's own public text, supplied by the Founder.\n\nLeaders: Jindo & Whitemane\n\nNo Mercy, No Surrender\n\nA HRZ focused Pirate gaming guild. We focus on gamers commited to being dominant in PvX. While PvP is our bread and butter, we do recruit players of all backgrounds.\n\nhttps://discord.gg/7XQEZTvrsG",
+    "refs": {
+      "pip": null,
+      "txs": []
+    },
+    "prev": "97cd71b11cce6542ef89501fc047367f02d01df0d0a39b63372352ca3dd8fef0",
+    "guild": {
+      "name": "The Unseen",
+      "description": "A HRZ focused Pirate gaming guild. We focus on gamers commited to being dominant in PvX. While PvP is our bread and butter, we do recruit players of all backgrounds.",
+      "links": [
+        "https://discord.gg/7XQEZTvrsG"
+      ],
+      "image": {
+        "url": "logos/the-unseen.png",
+        "alt": "The Unseen logo",
+        "link": "https://discord.gg/7XQEZTvrsG"
+      },
+      "discord": "https://discord.gg/7XQEZTvrsG"
+    }
+  },
+  "signature": "ziyyqn82QnHSXSW1iQtzf9SVuxUP8JBKTHRE8TYFsvMvEREbyuVRfkVovCN3Ffy9HZrt1jvsk6TZLCXyCBndzME",
+  "approvals": [
+    {
+      "publicKey": "G2PhCi6MApcuC6f5o2CDQBWDnJt9hRcozHuuN55PYisU",
+      "signature": "3bEjZUjpDhCGP2i8gdfiPaov1vey29xXuyJ3ka7RnQV4rABGC8sLfJHw7JrDHx34o8Y17YBXUULta9QmoJEQ95Bg"
+    }
+  ]
+}
