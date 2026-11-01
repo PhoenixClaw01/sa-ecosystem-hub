@@ -1,0 +1,35 @@
+{
+  "payload": {
+    "v": 1,
+    "id": "guild-nft-italia-2026-11",
+    "created_at": "2026-11-01T03:35:51.300Z",
+    "author": "G2PhCi6MApcuC6f5o2CDQBWDnJt9hRcozHuuN55PYisU",
+    "kind": "guild",
+    "body": "Guild listing: NFT Italia - Il Consorzio. Published by Phoenix Collective (Falkor's team) from the guild's own public text (shortened, verbatim excerpts; full text in ORIGINALS.md), supplied by the Founder.\n\nGuild/dac leader : @[NFT Italia] infolowy.sol\n\n\"Lottiamo come squadra, cresciamo come famiglia\"\n\nFazione : ONI\n\nL'attività principale del gruppo è la Costruzione Navale.\n\nEseguiamo loop di raccolta e costruzione, opportunamente divisi tra i membri.\n\nL'obbiettivo ultimo del gruppo è quello di creare una community positiva , partecipe e disponibile , che pensi al profitto , ma anche ai propri compagni.\n\nDiscord link: https://discord.gg/nft-italia-718772483729391716",
+    "refs": {
+      "pip": null,
+      "txs": []
+    },
+    "prev": "eecab54c635db31fd24086af9a12b83a6aba8550426b5b1652ad7a6747a50e6c",
+    "guild": {
+      "name": "NFT Italia - Il Consorzio",
+      "description": "\"Lottiamo come squadra, cresciamo come famiglia\"",
+      "links": [
+        "https://discord.gg/nft-italia-718772483729391716"
+      ],
+      "image": {
+        "url": "logos/nft-italia.png",
+        "alt": "NFT Italia - Il Consorzio logo",
+        "link": "https://discord.gg/nft-italia-718772483729391716"
+      },
+      "discord": "https://discord.gg/nft-italia-718772483729391716"
+    }
+  },
+  "signature": "3ixc5VsEEMqrNboJeaWXtZdS3dvnc65H4E3wbysAxWj1jkangFS2eK5LdgAnAFHTXShX83WND1v7zretsFKGAjJp",
+  "approvals": [
+    {
+      "publicKey": "G2PhCi6MApcuC6f5o2CDQBWDnJt9hRcozHuuN55PYisU",
+      "signature": "4Nyam1uhqkbA5usN96LKrYGbjwAmZaZTZbL3nBgahzdAZigC1Sza1j1asvAthBuhe8dS7oPtRJWQnCVzf2LqCNUX"
+    }
+  ]
+}
