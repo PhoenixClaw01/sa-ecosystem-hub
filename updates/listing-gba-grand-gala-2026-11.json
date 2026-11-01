@@ -1,0 +1,44 @@
+{
+  "payload": {
+    "v": 1,
+    "id": "listing-gba-grand-gala-2026-11",
+    "created_at": "2026-11-01T03:35:47.174Z",
+    "author": "G2PhCi6MApcuC6f5o2CDQBWDnJt9hRcozHuuN55PYisU",
+    "kind": "listing",
+    "body": "Curator listing: Grand Gala. GBA member, hybrid business. Published by Phoenix Collective (Falkor's team) from public links the Founder supplied.",
+    "refs": {
+      "pip": null,
+      "txs": []
+    },
+    "prev": "dbd15d846345acfbb291608310746d398e1e52aec05756fc3c6b2e22f874a60a",
+    "listing": {
+      "stream": "hybrid",
+      "category": "ip_and_business",
+      "title": "Grand Gala",
+      "owner": "Grand Gala",
+      "url": "https://x.com/GrandGalaSA",
+      "offerText": "Outfitting champions across Star Atlas. All 1/1. Just sketches for the moment. Team: [AEP] Z.",
+      "verifyLiveNote": "Check details on the project's own pages before you act.",
+      "status": "available",
+      "asOf": "2026-10-31",
+      "expiresAt": "2027-01-29",
+      "ownershipProof": {
+        "method": "signer_review",
+        "evidenceRef": "Curator listing: Phoenix Collective checked this public link on 2026-10-31. Not signed or endorsed by Grand Gala."
+      },
+      "image": {
+        "url": "logos/grand-gala.jpg",
+        "alt": "Grand Gala logo",
+        "link": "https://x.com/GrandGalaSA"
+      },
+      "listingId": "grand-gala"
+    }
+  },
+  "signature": "5wWpuyieq2uCdvDE1kb2fCUrWjUwvaY9DiLPWMSDv71uGrAsy4acTHkp6biWxwYNor8SPtCG13RdmDE9BcULicbu",
+  "approvals": [
+    {
+      "publicKey": "G2PhCi6MApcuC6f5o2CDQBWDnJt9hRcozHuuN55PYisU",
+      "signature": "3aac7SYHE2pptcrFaKSSjM497WNKjJjTTb9fVVJDKHbwo1tLLtqG3df46comfqkxYBHtuf8abaEFTqJRj8cxMEqa"
+    }
+  ]
+}
