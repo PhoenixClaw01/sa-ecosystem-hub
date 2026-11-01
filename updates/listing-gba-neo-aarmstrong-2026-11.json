@@ -1,0 +1,44 @@
+{
+  "payload": {
+    "v": 1,
+    "id": "listing-gba-neo-aarmstrong-2026-11",
+    "created_at": "2026-11-01T03:35:47.810Z",
+    "author": "G2PhCi6MApcuC6f5o2CDQBWDnJt9hRcozHuuN55PYisU",
+    "kind": "listing",
+    "body": "Curator listing: Neo_AArmstrong.ink. Creator. Published by Phoenix Collective (Falkor's team) from public links the Founder supplied. Other links: Twitch https://www.twitch.tv/neo_aarmstrong",
+    "refs": {
+      "pip": null,
+      "txs": []
+    },
+    "prev": "271331d2735d93a1f0992fb8e167e2a5eeb14438ec9ede8c19d27a0883aa5d5a",
+    "listing": {
+      "stream": "hybrid",
+      "category": "creators",
+      "title": "Neo_AArmstrong.ink",
+      "owner": "Neo_AArmstrong.ink",
+      "url": "https://x.com/Neo_Aarmstrong",
+      "offerText": "Investidor e Embaixador Brasileiro do game Web3 Star Atlas · Vice-líder da DAC Ágora · Membro do HUB Espaço Contínuo · Membro da Comunidade 2025 JONI Awards",
+      "verifyLiveNote": "Check details on the project's own pages before you act.",
+      "status": "available",
+      "asOf": "2026-10-31",
+      "expiresAt": "2027-01-29",
+      "ownershipProof": {
+        "method": "signer_review",
+        "evidenceRef": "Curator listing: Phoenix Collective checked this public link on 2026-10-31. Not signed or endorsed by Neo_AArmstrong.ink."
+      },
+      "image": {
+        "url": "logos/neo-aarmstrong.jpg",
+        "alt": "Neo_AArmstrong.ink logo",
+        "link": "https://x.com/Neo_Aarmstrong"
+      },
+      "listingId": "neo-aarmstrong"
+    }
+  },
+  "signature": "euugftaabC9Su29uF6CKEVt7hAkKbwjCE1WG75kuy9MYQJcA6eoa4HgVB4Qztvjws1UkaS3VPEKx9JcPs4KmzMV",
+  "approvals": [
+    {
+      "publicKey": "G2PhCi6MApcuC6f5o2CDQBWDnJt9hRcozHuuN55PYisU",
+      "signature": "5Hyh9GiC4LvNDmnydBbb9mqezUWsm2BfvAq2J2cA7KRzFKME8xniWrHvtPtDHhN6nCujX1oBdwBtSWFaWzuyAsg1"
+    }
+  ]
+}
