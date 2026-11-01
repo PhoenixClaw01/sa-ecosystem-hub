@@ -1,0 +1,44 @@
+{
+  "payload": {
+    "v": 1,
+    "id": "listing-gba-afsex-2026-11",
+    "created_at": "2026-11-01T03:35:46.033Z",
+    "author": "G2PhCi6MApcuC6f5o2CDQBWDnJt9hRcozHuuN55PYisU",
+    "kind": "listing",
+    "body": "Curator listing: Andre's Decentralized Fleet Share Experience ($AFSeX). GBA member, hybrid business. Published by Phoenix Collective (Falkor's team) from public links the Founder supplied. Other links: Discord https://discord.gg/zSDE3Nwkhf · DAC https://play.staratlas.com/dac/explore/A2tx4EM8M7zPsk1XKGJcY3wxGTWZn7m6HcaHyt4AdrJg/",
+    "refs": {
+      "pip": null,
+      "txs": []
+    },
+    "prev": "6fa8c70cfb596d5f9b65991524210b23942c343c8fc81a5f35c3b12d8b79c1ea",
+    "listing": {
+      "stream": "hybrid",
+      "category": "ip_and_business",
+      "title": "Andre's Decentralized Fleet Share Experience ($AFSeX)",
+      "owner": "Andre's Decentralized Fleet Share Experience ($AFSeX)",
+      "url": "https://x.com/StarAtlasAFSeX",
+      "offerText": "Tokenization of my fleet, 50-50 profits for token holders. Est. 2022 · Team: Andre.",
+      "verifyLiveNote": "Check details on the project's own pages before you act.",
+      "status": "available",
+      "asOf": "2026-10-31",
+      "expiresAt": "2027-01-29",
+      "ownershipProof": {
+        "method": "signer_review",
+        "evidenceRef": "Curator listing: Phoenix Collective checked this public link on 2026-10-31. Not signed or endorsed by Andre's Decentralized Fleet Share Experience ($AFSeX)."
+      },
+      "image": {
+        "url": "logos/afsex.png",
+        "alt": "Andre's Decentralized Fleet Share Experience ($AFSeX) logo",
+        "link": "https://x.com/StarAtlasAFSeX"
+      },
+      "listingId": "afsex"
+    }
+  },
+  "signature": "64TbEBHAPvTgKLYZynWAPzTsCceecxPwV2uM9JXSupxFBKLLAJTGxLhkjd6QzAxdQqBBdNz6aiN63M1VVaFe78kK",
+  "approvals": [
+    {
+      "publicKey": "G2PhCi6MApcuC6f5o2CDQBWDnJt9hRcozHuuN55PYisU",
+      "signature": "kZqYyHQwyY1575zE2jhVmHczUzADsBFddhrMo3Cr8UMmasrNu9ygJGs52uBpFhhZgYzs4zdm197ZgBEk7ET2DVM"
+    }
+  ]
+}
