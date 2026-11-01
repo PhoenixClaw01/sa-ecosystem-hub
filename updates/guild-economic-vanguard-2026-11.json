@@ -1,0 +1,35 @@
+{
+  "payload": {
+    "v": 1,
+    "id": "guild-economic-vanguard-2026-11",
+    "created_at": "2026-11-01T03:35:50.053Z",
+    "author": "G2PhCi6MApcuC6f5o2CDQBWDnJt9hRcozHuuN55PYisU",
+    "kind": "guild",
+    "body": "Guild listing: Economic Vanguard. Published by Phoenix Collective (Falkor's team) from the guild's own public text, supplied by the Founder.\n\nLeader: Lucky\n\nKraken, KALABAS, RAFA, Senvas\n\nThe Economic Vanguard Guild is founded on the principles of strategic resource management, efficient trade, and skillful balancing of forces in the galaxy. We believe that economic power and military strength should not be mutually exclusive, but work hand in hand to maintain stability and prosperity of our territories and the galaxy as a whole.\n\nhttps://discord.gg/Qyj568ZR ",
+    "refs": {
+      "pip": null,
+      "txs": []
+    },
+    "prev": "990ec59a4874ec8c09e8432641d7a4f3fb86ee3a01c550cdb2155602188749ae",
+    "guild": {
+      "name": "Economic Vanguard",
+      "description": "The Economic Vanguard Guild is founded on the principles of strategic resource management, efficient trade, and skillful balancing of forces in the galaxy.",
+      "links": [
+        "https://discord.gg/Qyj568ZR"
+      ],
+      "image": {
+        "url": "logos/economic-vanguard.png",
+        "alt": "Economic Vanguard logo",
+        "link": "https://discord.gg/Qyj568ZR"
+      },
+      "discord": "https://discord.gg/Qyj568ZR"
+    }
+  },
+  "signature": "T9Nrvd4t6bpo4wv3JRfD5ac9PBanHzopUNovkcXsSx9ABuKKAD4DYBAKDRF4XuC6KRywF5aj3kiD5sX3nxKWJVB",
+  "approvals": [
+    {
+      "publicKey": "G2PhCi6MApcuC6f5o2CDQBWDnJt9hRcozHuuN55PYisU",
+      "signature": "5Juyy4Qdm25NsMRgouC3FQKcvmdZ1SEyd47pmgy4v3dr4VUVXzYYbb1sUc7gw96cXb2zwoTBX3KvBWhRvEmGDrvP"
+    }
+  ]
+}
