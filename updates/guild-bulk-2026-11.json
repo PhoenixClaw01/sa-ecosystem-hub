@@ -1,0 +1,36 @@
+{
+  "payload": {
+    "v": 1,
+    "id": "guild-bulk-2026-11",
+    "created_at": "2026-11-01T03:35:49.384Z",
+    "author": "G2PhCi6MApcuC6f5o2CDQBWDnJt9hRcozHuuN55PYisU",
+    "kind": "guild",
+    "body": "Guild listing: BULK. Published by Phoenix Collective (Falkor's team) from the guild's own public text (shortened, verbatim excerpts; full text in ORIGINALS.md), supplied by the Founder.\n\nLeader: Eoganacht\n\nBrave the challenge of the void\n\n:BULK: BULK is a freight, combat, and industrial community dedicated to mutual-prosperity and building personal skill to thrive in digital realms. We believe digital ownership will fundamentally change human socio-economic relationships globally. This new paradigm is spearheaded by gaming.\n\nRecognizing the increasingly complex nature of peoples' socio-economic lives, BULK supports members of allied communities to become Bulkers as well.\n\n:Bulker: Apply today, the campfire awaits: https://bulkdac.com/\n\nhttps://discord.gg/kwydrGXKRF",
+    "refs": {
+      "pip": null,
+      "txs": []
+    },
+    "prev": "9dbd305d23b3a384cb4c825cb53c10512aa3341d9d4634988f5465412edf992d",
+    "guild": {
+      "name": "BULK",
+      "description": "Brave the challenge of the void",
+      "links": [
+        "https://discord.gg/kwydrGXKRF"
+      ],
+      "image": {
+        "url": "logos/bulk.png",
+        "alt": "BULK logo",
+        "link": "https://bulkdac.com/"
+      },
+      "site": "https://bulkdac.com/",
+      "discord": "https://discord.gg/kwydrGXKRF"
+    }
+  },
+  "signature": "2Ju595LCQawotBxvu61T4xivvq9tEMxU74uDLz99Y1YoTQAxf6kxvmXm2YuVUMidryvyLAhsNthpxwmBbXWqgboM",
+  "approvals": [
+    {
+      "publicKey": "G2PhCi6MApcuC6f5o2CDQBWDnJt9hRcozHuuN55PYisU",
+      "signature": "46ovqn1QmX5HpApE8jrMjtudod8TaSssYTXauriaf6QEedXVrg1mFabaGAhtCd2syf89fJDKnvMcM9ULTFyLPZ2g"
+    }
+  ]
+}
