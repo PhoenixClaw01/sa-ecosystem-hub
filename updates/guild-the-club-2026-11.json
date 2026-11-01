@@ -1,0 +1,36 @@
+{
+  "payload": {
+    "v": 1,
+    "id": "guild-the-club-2026-11",
+    "created_at": "2026-11-01T03:35:52.588Z",
+    "author": "G2PhCi6MApcuC6f5o2CDQBWDnJt9hRcozHuuN55PYisU",
+    "kind": "guild",
+    "body": "Guild listing: The Club. Published by Phoenix Collective (Falkor's team) from the guild's own public text (shortened, verbatim excerpts; full text in ORIGINALS.md), supplied by the Founder.\n\nLeaders: The Council\n\nThe Club Guild members are pioneers of the Metaverse and NFT gaming space, and we give back to our community!\n\nWe are are a multi national community, believing in the future of this type of gaming which provides ownership to in-game digital assets. Our members are top early supporters of Star Atlas, including content creators, OG community members and significant asset holders.\n\nWe need fighters, we need explorers, we need miners, traders and pilots.... we need YOU!\n\nhttps://theclubguild.com/\n\nhttps://discord.gg/A7mfcawfR9",
+    "refs": {
+      "pip": null,
+      "txs": []
+    },
+    "prev": "2a7dd1f909b03ddb52d16a233c210f7dc76e4170974f7b6be3062d032aae6523",
+    "guild": {
+      "name": "The Club",
+      "description": "The Club Guild members are pioneers of the Metaverse and NFT gaming space, and we give back to our community!",
+      "links": [
+        "https://discord.gg/A7mfcawfR9"
+      ],
+      "image": {
+        "url": "logos/the-club.png",
+        "alt": "The Club logo",
+        "link": "https://theclubguild.com/"
+      },
+      "site": "https://theclubguild.com/",
+      "discord": "https://discord.gg/A7mfcawfR9"
+    }
+  },
+  "signature": "2G7zbGobh4ecokDjLB8o6PrifQTpwTNj5GLK1kJBHy3NbutXYtDKW29uSgsvKk9HaMz42SaTH1CnnKJfscaqnAV1",
+  "approvals": [
+    {
+      "publicKey": "G2PhCi6MApcuC6f5o2CDQBWDnJt9hRcozHuuN55PYisU",
+      "signature": "3ksiDEX5Bod1hj2DVPyKj9SeZzp8QaYKG7FFYNPM6UFqHYxBCooGyCjiyQ9rZaTN6UqQYJGeZm4XDW4XTk85aWZq"
+    }
+  ]
+}
