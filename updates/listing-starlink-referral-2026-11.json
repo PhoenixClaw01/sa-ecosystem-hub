@@ -1,0 +1,36 @@
+{
+  "payload": {
+    "v": 1,
+    "id": "listing-starlink-referral-2026-11",
+    "created_at": "2026-11-01T04:04:54.240Z",
+    "author": "G2PhCi6MApcuC6f5o2CDQBWDnJt9hRcozHuuN55PYisU",
+    "kind": "listing",
+    "body": "Listing: Starlink internet referral. Published by Phoenix Collective. Links to Phoenix Collective's own Starlink page; the referral link is on that page, not in the hub.",
+    "refs": {
+      "pip": null,
+      "txs": []
+    },
+    "prev": "59bcabaafad33c55ed134b0c1aabf245c899c01d1f6e5640bfd9265509bdc446",
+    "listing": {
+      "stream": "referral",
+      "category": "ip_and_business",
+      "title": "Starlink internet referral",
+      "owner": "Phoenix Collective",
+      "url": "https://phoenix-collective.app/starlink",
+      "offerText": "Order Starlink through Phoenix Collective's referral link and you'll get CA$140 once you've been subscribed for two months, as cash or service credit (see Starlink's referral terms). Eligible referrals only. Starlink sets the amount and can change it. Setup help in Nova Scotia.",
+      "verifyLiveNote": "Hardware may be rented; any activation fee and terms are shown at checkout. Check Starlink's referral terms before you order.",
+      "status": "available",
+      "disclosure": "Referral disclosure: Phoenix Collective gets the same reward for referring you. Not affiliated with SpaceX or Starlink, and this node never handles payment.",
+      "asOf": "2026-11-01",
+      "expiresAt": "2027-01-30",
+      "listingId": "starlink-referral"
+    }
+  },
+  "signature": "4qzmzmrHKTfTQ4VEgQCD6aj18e2nFP8YA4c8QkMfGnhb7gAu7pu41Uck6b3vS7r51MNn6neUt7Nfx11nSwrufPmh",
+  "approvals": [
+    {
+      "publicKey": "G2PhCi6MApcuC6f5o2CDQBWDnJt9hRcozHuuN55PYisU",
+      "signature": "5RRXTRdJuzURvhpAcTUH4LsXTfbvAwtojwhJ6XDuDeQtxZWeabuY9yXdPYh4bqnZkmUjK1xZyqew6hd1EocWayQV"
+    }
+  ]
+}
