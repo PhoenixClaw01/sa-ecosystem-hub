@@ -1,0 +1,35 @@
+{
+  "payload": {
+    "v": 1,
+    "id": "guild-vanguard-2026-11",
+    "created_at": "2026-11-01T03:35:52.859Z",
+    "author": "G2PhCi6MApcuC6f5o2CDQBWDnJt9hRcozHuuN55PYisU",
+    "kind": "guild",
+    "body": "Guild listing: Vanguard. Published by Phoenix Collective (Falkor's team) from the guild's own public text (shortened, verbatim excerpts; full text in ORIGINALS.md), supplied by the Founder.\n\n\"Lead Boldly. Thrive Together.\"\n\nVanguard is a premier military contractor operating at the heart of the MUD defense industry in Star Atlas. Our mission is simple: empower your success — whether on the battlefield, in deep space, or behind the front lines.\n\nMunitions & Weapon-Grade Materials\n\nBounty Hunting & Target Elimination\n\nSecurity, Defense Operations, & Strategic Freight Transport\n\nOur personnel are seasoned, precise, and committed to excellence.\n\nhttps://discord.gg/h6t3Z7NNrF",
+    "refs": {
+      "pip": null,
+      "txs": []
+    },
+    "prev": "a3503182a5e0deb3e5698520208566f5c73311993d7c491a9cea78ca3f03137a",
+    "guild": {
+      "name": "Vanguard",
+      "description": "Vanguard is a premier military contractor operating at the heart of the MUD defense industry in Star Atlas. Our mission is simple: empower your success — whether on the battlefield, in deep space, or behind the front lines.",
+      "links": [
+        "https://discord.gg/h6t3Z7NNrF"
+      ],
+      "image": {
+        "url": "logos/vanguard.png",
+        "alt": "Vanguard logo",
+        "link": "https://discord.gg/h6t3Z7NNrF"
+      },
+      "discord": "https://discord.gg/h6t3Z7NNrF"
+    }
+  },
+  "signature": "3knEz9qVnqH4JZx5TTDMdoKaL3TSAZfKw6mGJSJeEDwSB5yWf1j96Wqi5Cr7yVAFwJ3ss3Avvx7WAupibtd61cv",
+  "approvals": [
+    {
+      "publicKey": "G2PhCi6MApcuC6f5o2CDQBWDnJt9hRcozHuuN55PYisU",
+      "signature": "4V22g18fAa33cnimBPopxGch14XME5gGk7P2BhDGvWxLcEWcghftKwR3sBAgxpNf6DGiZP5v8wky2gbyPXgsSuNK"
+    }
+  ]
+}
