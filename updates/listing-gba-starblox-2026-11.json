@@ -1,0 +1,44 @@
+{
+  "payload": {
+    "v": 1,
+    "id": "listing-gba-starblox-2026-11",
+    "created_at": "2026-11-01T03:35:48.592Z",
+    "author": "G2PhCi6MApcuC6f5o2CDQBWDnJt9hRcozHuuN55PYisU",
+    "kind": "listing",
+    "body": "Curator listing: STARBLOX. GBA member, hybrid business. Published by Phoenix Collective (Falkor's team) from public links the Founder supplied. Other links: YouTube https://www.youtube.com/@STARBLOX_SA",
+    "refs": {
+      "pip": null,
+      "txs": []
+    },
+    "prev": "d24f7a1bfbeffb90afa7b4fd8b36a70ab192c50cdeaea730aab385c940c91b50",
+    "listing": {
+      "stream": "hybrid",
+      "category": "ip_and_business",
+      "title": "STARBLOX",
+      "owner": "STARBLOX",
+      "url": "https://x.com/STARBLOX_SA",
+      "offerText": "STARBLOX ship kits. Website coming soon. Est. 2025 · Team: Zamsor, BobaGoat, Falkor.",
+      "verifyLiveNote": "Check details on the project's own pages before you act.",
+      "status": "available",
+      "asOf": "2026-10-31",
+      "expiresAt": "2027-01-29",
+      "ownershipProof": {
+        "method": "signer_review",
+        "evidenceRef": "Curator listing: Phoenix Collective checked this public link on 2026-10-31. Not signed or endorsed by STARBLOX."
+      },
+      "image": {
+        "url": "logos/starblox.png",
+        "alt": "STARBLOX logo",
+        "link": "https://x.com/STARBLOX_SA"
+      },
+      "listingId": "starblox"
+    }
+  },
+  "signature": "5HHdqfJhjhHNKMoxLPHLHtb9juq2MdAhJECAur6R5PpDXLxb7KHwaSGWzJoCom5FhT2Rd7RyYPAo3XBttukqn5YF",
+  "approvals": [
+    {
+      "publicKey": "G2PhCi6MApcuC6f5o2CDQBWDnJt9hRcozHuuN55PYisU",
+      "signature": "4Mtm7JjyeGuKeVWwMmAYEzw5AFD3qr3C3uxebqv7hfpa1pUui6d8YDxmU9oGK1KVrb6N7NexNHcR2wggvyEKSy7g"
+    }
+  ]
+}
