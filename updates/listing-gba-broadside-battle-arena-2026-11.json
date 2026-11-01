@@ -1,0 +1,44 @@
+{
+  "payload": {
+    "v": 1,
+    "id": "listing-gba-broadside-battle-arena-2026-11",
+    "created_at": "2026-11-01T03:35:46.403Z",
+    "author": "G2PhCi6MApcuC6f5o2CDQBWDnJt9hRcozHuuN55PYisU",
+    "kind": "listing",
+    "body": "Curator listing: Broadside Battle Arena. GBA member, hybrid business. Published by Phoenix Collective (Falkor's team) from public links the Founder supplied. Other links: X https://x.com/Siphaawal",
+    "refs": {
+      "pip": null,
+      "txs": []
+    },
+    "prev": "004c67eeb3e5d35f5ea191f3d23679d266cd5bb26c277232c5d4694280b7a4c8",
+    "listing": {
+      "stream": "hybrid",
+      "category": "ip_and_business",
+      "title": "Broadside Battle Arena",
+      "owner": "Broadside Battle Arena",
+      "url": "https://broadsidebattlearena.com/",
+      "offerText": "Build a fleet to a strict point budget, take the bridge, and out-maneuver your rivals in real-time battles across a three-dimensional space arena. Est. 2025 · Team: Siphaawal.",
+      "verifyLiveNote": "Check details on the project's own pages before you act.",
+      "status": "available",
+      "asOf": "2026-10-31",
+      "expiresAt": "2027-01-29",
+      "ownershipProof": {
+        "method": "signer_review",
+        "evidenceRef": "Curator listing: Phoenix Collective checked this public link on 2026-10-31. Not signed or endorsed by Broadside Battle Arena."
+      },
+      "image": {
+        "url": "logos/broadside-battle-arena.png",
+        "alt": "Broadside Battle Arena logo",
+        "link": "https://broadsidebattlearena.com/"
+      },
+      "listingId": "broadside-battle-arena"
+    }
+  },
+  "signature": "JSg2UGDd55cZBMPr5CN4gMz5PVjh53EafePK7TxtSMbwb7dXk8gLTSzK3MDcBcPwdt2RibPKd7AZhEcZEeeCB23",
+  "approvals": [
+    {
+      "publicKey": "G2PhCi6MApcuC6f5o2CDQBWDnJt9hRcozHuuN55PYisU",
+      "signature": "23zgb2WzvmXZPoHbqKNLa8U4mnhzwxt4q3iKd1GbA7LVLfr9EKNULATfCxy7sKNsdLWqL2gYSma7bbHrujFp2PRa"
+    }
+  ]
+}
