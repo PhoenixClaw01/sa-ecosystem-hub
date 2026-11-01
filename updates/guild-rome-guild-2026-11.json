@@ -1,0 +1,36 @@
+{
+  "payload": {
+    "v": 1,
+    "id": "guild-rome-guild-2026-11",
+    "created_at": "2026-11-01T03:35:51.592Z",
+    "author": "G2PhCi6MApcuC6f5o2CDQBWDnJt9hRcozHuuN55PYisU",
+    "kind": "guild",
+    "body": "Guild listing: ROME Guild. Published by Phoenix Collective (Falkor's team) from the guild's own public text, supplied by the Founder.\n\nA Decentralized Autonomous Corporation of the ONI Consortium.\nConsuls (founders): @ROME | RayVeze  @ROME | Witticus \nCenturions (senior leadership): Winston7026 / Virtuwul\nOptios: Aegir1 / Krash9273\nWebsite: https://romeguild.com/\nDiscord: https://discord.gg/trRc5GkQEf",
+    "refs": {
+      "pip": null,
+      "txs": []
+    },
+    "prev": "bdcff0174e05b03d6c37cdf1a257b787b4b83939e44103d72a3f95656cf8ff42",
+    "guild": {
+      "name": "ROME Guild",
+      "description": "A Decentralized Autonomous Corporation of the ONI Consortium.",
+      "links": [
+        "https://discord.gg/trRc5GkQEf"
+      ],
+      "image": {
+        "url": "logos/rome-guild.png",
+        "alt": "ROME Guild logo",
+        "link": "https://romeguild.com/"
+      },
+      "site": "https://romeguild.com/",
+      "discord": "https://discord.gg/trRc5GkQEf"
+    }
+  },
+  "signature": "2xY4i9pnNuy8D5WFN3n8bA7ubN39bPqW5jahzoBNCXeVQVmstTX2UDDq5KUkSgxbka61zcTv8pDSKohygXsfwDrm",
+  "approvals": [
+    {
+      "publicKey": "G2PhCi6MApcuC6f5o2CDQBWDnJt9hRcozHuuN55PYisU",
+      "signature": "3V68eJkY8CNog8s53uvdHUH5hiCGJsEafFc5q1s6nU8uiKTtv5bmCRhznMV1rviiteFeFYE1zgiRSKjuVq4VEdFX"
+    }
+  ]
+}
