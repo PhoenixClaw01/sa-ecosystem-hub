@@ -1,0 +1,44 @@
+{
+  "payload": {
+    "v": 1,
+    "id": "listing-gba-dark-core-roasters-2026-11",
+    "created_at": "2026-11-01T03:35:46.523Z",
+    "author": "G2PhCi6MApcuC6f5o2CDQBWDnJt9hRcozHuuN55PYisU",
+    "kind": "listing",
+    "body": "Curator listing: Dark Core Roasters. GBA member, hybrid business. Published by Phoenix Collective (Falkor's team) from public links the Founder supplied. Other links: X https://x.com/DarkCoreRoast · Discord https://discord.gg/zz9stVWpjR",
+    "refs": {
+      "pip": null,
+      "txs": []
+    },
+    "prev": "20c6c7f70728d05e3eab1d71b01f3e9031e39a7c9a2ac84a6c338626cb53f0d2",
+    "listing": {
+      "stream": "hybrid",
+      "category": "ip_and_business",
+      "title": "Dark Core Roasters",
+      "owner": "Dark Core Roasters",
+      "url": "https://darkcoreroasters.com/",
+      "offerText": "Coffee to fuel your gaming adventures, merch, comics & more. Est. 2022 · Team: Atlas Theory, Choutz, Arktpe.",
+      "verifyLiveNote": "Check details on the project's own pages before you act.",
+      "status": "available",
+      "asOf": "2026-10-31",
+      "expiresAt": "2027-01-29",
+      "ownershipProof": {
+        "method": "signer_review",
+        "evidenceRef": "Curator listing: Phoenix Collective checked this public link on 2026-10-31. Not signed or endorsed by Dark Core Roasters."
+      },
+      "image": {
+        "url": "logos/dark-core-roasters.jpg",
+        "alt": "Dark Core Roasters logo",
+        "link": "https://darkcoreroasters.com/"
+      },
+      "listingId": "dark-core-roasters"
+    }
+  },
+  "signature": "YUb8YRr5se9hGY3wEKHi3j7ihAHXcZyTiC1puYx2w6cNG4UiCRa1jWb8NrShLTDEJbQdq4wPWQ6CuybhXVeEpEe",
+  "approvals": [
+    {
+      "publicKey": "G2PhCi6MApcuC6f5o2CDQBWDnJt9hRcozHuuN55PYisU",
+      "signature": "4YSXxo6ESTwke1w5tBZ6WjkHYh1g4nW65vgHCTjNZbE37Wbz94LCazYBAqaYPq2uvZVsZPhg4WuxfHwcPeRusx5M"
+    }
+  ]
+}
