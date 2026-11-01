@@ -1,0 +1,35 @@
+{
+  "payload": {
+    "v": 1,
+    "id": "listing-starlink-withdraw-2026-11",
+    "created_at": "2026-11-01T04:04:54.099Z",
+    "author": "G2PhCi6MApcuC6f5o2CDQBWDnJt9hRcozHuuN55PYisU",
+    "kind": "listing",
+    "body": "Withdraws the earlier Starlink \"ask for link\" card. It is replaced by listing starlink-referral, which links to Phoenix Collective's Starlink page.",
+    "refs": {
+      "pip": null,
+      "txs": []
+    },
+    "prev": "bd73ea2624ef3204920b55a3bab50a13c70c6d7c61a327e6e16e4c76af11b4e0",
+    "listing": {
+      "stream": "referral",
+      "category": "ip_and_business",
+      "title": "Starlink internet referral (ask for link)",
+      "owner": "Starlink",
+      "url": "https://www.starlink.com/",
+      "offerText": "Ask Phoenix Collective for a Starlink referral link. No referral link is printed here.",
+      "verifyLiveNote": "Check plans, terms and availability for your address on starlink.com before you sign up.",
+      "status": "withdrawn",
+      "disclosure": "Referral disclosure: Phoenix Collective may receive a referral credit from Starlink if you sign up with a link we send you. Starlink sets its own terms. Phoenix Collective is not affiliated with Starlink or SpaceX, and this node never handles payment.",
+      "asOf": "2026-11-01",
+      "expiresAt": "2027-01-30"
+    }
+  },
+  "signature": "jzTZkY9pvp6zMdtXAypKxgRsQ7VS8RVj58fnJ9hgYyDTje9KsTjxKoztGgnEe125qeu1GLQicyGcLv3fHazfihT",
+  "approvals": [
+    {
+      "publicKey": "G2PhCi6MApcuC6f5o2CDQBWDnJt9hRcozHuuN55PYisU",
+      "signature": "459KY1LnZ34fe2GvCihGW78xbA96xmPt5BrNQxH2vX8WXrconEuea8t74yH1oe2wLNKGauSz7734MzyPMeWLRunw"
+    }
+  ]
+}
