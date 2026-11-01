@@ -1,0 +1,35 @@
+{
+  "payload": {
+    "v": 1,
+    "id": "guild-espaco-continuo-2026-11",
+    "created_at": "2026-11-01T03:35:50.322Z",
+    "author": "G2PhCi6MApcuC6f5o2CDQBWDnJt9hRcozHuuN55PYisU",
+    "kind": "guild",
+    "body": "Guild listing: Espaço Contínuo. Published by Phoenix Collective (Falkor's team) from the guild's own public text (shortened, verbatim excerpts; full text in ORIGINALS.md), supplied by the Founder.\n\nLeaders: ecmalvs | mad.arbaf\n\nGuilda brasileira no Star Atlas\n\nA Espaço Contínuo é a guilda brasileira que tem o objetivo de se tornar a maior guilda colaborativa do Brasil no Star Atlas, pela união dos players brasileiros.\n\nJuntos, neste Espaço, também você encontrará seu Contínuo crescimento!\n\nhttps://discord.gg/VHhHtkdr9x",
+    "refs": {
+      "pip": null,
+      "txs": []
+    },
+    "prev": "3787353f538473fab97e7fc160dc000a82f2596741f898bf76a6fc1a7fe6648f",
+    "guild": {
+      "name": "Espaço Contínuo",
+      "description": "Guilda brasileira no Star Atlas",
+      "links": [
+        "https://discord.gg/VHhHtkdr9x"
+      ],
+      "image": {
+        "url": "logos/espaco-continuo.png",
+        "alt": "Espaço Contínuo logo",
+        "link": "https://discord.gg/VHhHtkdr9x"
+      },
+      "discord": "https://discord.gg/VHhHtkdr9x"
+    }
+  },
+  "signature": "3imNX7AvaXqjunuv542H8q9MSn7YV8C8coPbs5h4k7nC1jx77faJTuSvUzDimtrdevK3xrmAUkGyAW6dwmeBNUFG",
+  "approvals": [
+    {
+      "publicKey": "G2PhCi6MApcuC6f5o2CDQBWDnJt9hRcozHuuN55PYisU",
+      "signature": "5QdhRgUyF3NC7Brk6bwvo4U97dyy7rcaXP8ECbkvbXEatbsEjVMoWtmmkeB65CGM4qTLtkAKQfx2Nf5eo5aX6ykZ"
+    }
+  ]
+}
