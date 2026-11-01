@@ -1,0 +1,44 @@
+{
+  "payload": {
+    "v": 1,
+    "id": "listing-gba-super-phoenix-dao-2026-11",
+    "created_at": "2026-11-01T03:35:48.855Z",
+    "author": "G2PhCi6MApcuC6f5o2CDQBWDnJt9hRcozHuuN55PYisU",
+    "kind": "listing",
+    "body": "Curator listing: Super Phoenix DAO. Published by Phoenix Collective (Falkor's team) from text and public links the Founder supplied. The Superphoenix Titan ship is a groundbreaking digital asset within the Star Atlas Metaverse, offering a vast expanse of interior space to be transformed into a virtual paradise. This ship will feature an assortment of meticulously designed amenities that will provide a virtual social experience unlike any other. The Super Phoenix DAO will establish an unparalleled entertainment and leisure hub, catering to users seeking a rich and engaging experience in the virtual world.\n\nTHE SUPERPHOENIX is an interstellar oasis that will push the bounds of space exploration within the Star Atlas Metaverse. Join the Super Phoenix DAO to ensure your place onboard as we build unique member experiences and explore Galia together as a community.\n\nThe Super Phoenix DAO will provide token holders with the ability to participate in the decision making and governance of the Superphoenix Titan Ship in a truly distributed and democratized way.\n\nWebsite: https://superphoenixdao.com/landing · Discord: https://discord.gg/6974MTEgBk · X: https://x.com/SuperPhoenixDAO",
+    "refs": {
+      "pip": null,
+      "txs": []
+    },
+    "prev": "133e46d54f45324e981e37a5bffa2b6b4dcacbd56d23086f6aad9530b8af0a2a",
+    "listing": {
+      "stream": "hybrid",
+      "category": "guilds_and_dacs",
+      "title": "Super Phoenix DAO",
+      "owner": "Super Phoenix DAO",
+      "url": "https://superphoenixdao.com/landing",
+      "offerText": "BUILDING A COMMUNITY AROUND THE LARGEST WEB3 ASSET IN THE WORLD. FIMBUL ECOS SUPERPHOENIX TITAN STARSHIP. Our mission is to unify players across factions to create a community that brings guilds together to benefit from all the DAO has to offer.",
+      "verifyLiveNote": "Check details on the project's own pages before you act.",
+      "status": "available",
+      "asOf": "2026-10-31",
+      "expiresAt": "2027-01-29",
+      "ownershipProof": {
+        "method": "signer_review",
+        "evidenceRef": "Curator listing: Phoenix Collective checked this public link on 2026-10-31. Not signed or endorsed by Super Phoenix DAO."
+      },
+      "image": {
+        "url": "logos/super-phoenix-dao.png",
+        "alt": "Super Phoenix DAO logo",
+        "link": "https://superphoenixdao.com/landing"
+      },
+      "listingId": "super-phoenix-dao"
+    }
+  },
+  "signature": "61ajHVnV9Un3atgZxnCFqPs3AdxoqVzJ1WYniJor5Egzu9TzaR82ZR8nW1mfT88XRZDcDT9N7sYCwxgna48XGNUP",
+  "approvals": [
+    {
+      "publicKey": "G2PhCi6MApcuC6f5o2CDQBWDnJt9hRcozHuuN55PYisU",
+      "signature": "4UogKEvRieKdRTxc1S5DfTWDxTZDMdwaeYtwdqJg5CDP9JGZoTsrbhbHJMgNhqLSbXLA9DGxd754kVg28SqL32jZ"
+    }
+  ]
+}
