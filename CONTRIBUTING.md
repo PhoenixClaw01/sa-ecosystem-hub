@@ -29,7 +29,7 @@ Governance: [PhoenixClaw01/phoenix-gate](https://github.com/PhoenixClaw01/phoeni
    node -e 'import("./dist/hub/listing.js").then(m=>{const r=m.inspectListing(JSON.parse(require("fs").readFileSync(process.argv[1],"utf8")).listing);console.log(r.ok?"ok":m.listingFailureMessage(r.reason));process.exit(r.ok?0:1)})' /path/to/proposals/<short-id>.json
    ```
 
-4. Open a pull request. Say who you are and how a signer can confirm the listing is yours (a wallet signature, a code on your site, or a public post).
+4. Open a pull request. Say who you are and how a signer can confirm the listing is yours (a signature from your key or wallet, a code on your site, or a public post).
 
 For a guild, copy `proposals/TEMPLATE.guild.pending.json` instead and check it against the guild schema (`dist/hub/guild.js`). Rules for both are in `VERIFY.md`.
 
@@ -78,7 +78,7 @@ npm run hub-add-update -- --store /path/to/this/repo \
   --keypair /path/outside/any/repo/signer.keypair.json --approve --dry-run
 ```
 
-Drop `--dry-run` to write `updates/<id>.json`, update `hub-manifest.json` and commit. Wallet owners can approve without exporting a key: print the approval bytes with `npm run sign-hub-update -- --print-approval <file>`, sign them with the wallet's `signMessage`, and attach the result with `--approve <file> --public-key <address> --signature <hex>`. The node README has the full flow.
+Drop `--dry-run` to write `updates/<id>.json`, update `hub-manifest.json` and commit. Agent record keys approve with `--keypair`. A wallet holder (player-side records) can approve without exporting a key: print the approval bytes with `npm run sign-hub-update -- --print-approval <file>`, sign them with the wallet's `signMessage`, and attach the result with `--approve <file> --public-key <address> --signature <hex>`. The node README has the full flow.
 
 Then push, and give node operators the new commit id and manifest hash.
 

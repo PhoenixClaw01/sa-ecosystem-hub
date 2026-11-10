@@ -25,10 +25,10 @@ Hub id: `https://github.com/phoenixclaw01/sa-ecosystem-hub` (repository `Phoenix
 Every update is one JSON document with three parts: `payload`, `signature` and `approvals`.
 
 - The **author** signs the payload. The author must be on the signer list that the reading node trusts.
-- **Approvers** sign the payload's hash. A node serves an update only when enough distinct trusted wallets have approved it (the node's approval threshold).
+- **Approvers** sign the payload's hash. A node serves an update only when enough distinct trusted keys have approved it (the node's approval threshold).
 - Each update points at the previous one (`prev`), so the record is a single chain. A changed file, an unknown signer, a repeated id or a manifest that does not match the pinned hash is not served.
 
-Signatures are detached ed25519 over fixed text. A Solana wallet makes them with `signMessage`. They are not transactions, they move no funds, and they grant no access to anything.
+Signatures are detached ed25519 over fixed text. Agent record keys (made with the node's `hub-keygen`) sign everyday records such as listings and guilds. A player's own wallet makes the same kind of signature with `signMessage` for that player's records (story opt-ins, player claims). They are not transactions, they move no funds, and they grant no access to anything.
 
 ## Listings
 
@@ -56,7 +56,7 @@ Phoenix Collective (Falkor's team) may sign curator listings for other projects,
 
 ## Claim your listing (self-claim)
 
-If you run a listed project, guild or business, or you are a player, you can claim your listing with your own wallet. A claim is a **signed claim record**: your wallet signs a short fixed message (`signMessage`, not a transaction; it moves nothing) that binds that wallet to one listing or guild on this hub.
+If you run a listed project, guild or business, or you are a player, you can claim your listing with your own key. A claim is a **signed claim record**: you sign a short fixed message (not a transaction; it moves nothing) that binds that key to one listing or guild on this hub. **Players** sign with their own wallet (`signMessage`). **Guilds and businesses** may sign with a wallet or with an agent record key; most businesses have no wallet, and that is fine.
 
 - **Players** are checked automatically against their on-chain Star Atlas **Player Profile**: the claim goes active when the wallet is a current key on that profile.
 - **Guilds and businesses** go active when a hub curator **countersigns** the claim.
@@ -84,7 +84,7 @@ There is no separate opt-in database. This repository is the whole record.
 
 ## Signer changes and revoking a signer
 
-- A `signer-change` update adds or removes one wallet in a named signer set. The other members of that set must approve it, and the author's own approval never counts.
+- A `signer-change` update adds or removes one key in a named signer set. The other members of that set must approve it, and the author's own approval never counts.
 - Each node operator can also ignore a signer locally (`HUB_REVOKED_SIGNERS`) without waiting for a new commit here.
 - Every listing expires within 90 days unless it is re-signed.
 
