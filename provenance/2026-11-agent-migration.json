@@ -1,0 +1,620 @@
+{
+  "v": 1,
+  "schema": "sa-ecosystem-hub.provenance.agent-migration.v1",
+  "note": "Not listed in hub-manifest.json, so no node reads this file and it never counts toward a threshold. Each removedApproval is the original detached ed25519 signature over 'sa-ecosystem-node:hub-approval:v1\\n' + payloadSha256. It still verifies, which shows the record was approved by that key at sourceCommit. Git history keeps the original files.",
+  "migration": "SPEC section 17, steps M2 and M3",
+  "sourceCommit": "f064f18db1da60c4f3e562d4064c8f344042e97e",
+  "sourceTag": "pre-agent-migration",
+  "approvalsAfter": [
+    "G2PhCi6MApcuC6f5o2CDQBWDnJt9hRcozHuuN55PYisU",
+    "AANzSFjMzGuKn5gC1YygMsZZGeLUiMM9HAmKH6n2YqgH"
+  ],
+  "count": 55,
+  "records": [
+    {
+      "id": "listing-starlink-2026-11",
+      "file": "updates/listing-starlink-2026-11.json",
+      "payloadSha256": "6fa8c70cfb596d5f9b65991524210b23942c343c8fc81a5f35c3b12d8b79c1ea",
+      "removedApproval": {
+        "publicKey": "FC1eRr99GGJZuc4KZeUivBpbSMGvjcBB839KaEfAuhcq",
+        "signature": "22B8U9sjFwRyuQKq2YjZ9npJznmsx9GnkYjyqwTXLdM18fkExAF4BS6Lr7c2vo6waYvE7WJz1hLxCjKqA1reUXcv"
+      },
+      "sourceCommit": "f064f18db1da60c4f3e562d4064c8f344042e97e",
+      "reason": "superseded by agent-key approval; kept as provenance"
+    },
+    {
+      "id": "listing-gba-afsex-2026-11",
+      "file": "updates/listing-gba-afsex-2026-11.json",
+      "payloadSha256": "a891d3e9cc378adabbf9f1fae99f07f547dcb4520fdfe4064259cbd6ed3e4dc3",
+      "removedApproval": {
+        "publicKey": "FC1eRr99GGJZuc4KZeUivBpbSMGvjcBB839KaEfAuhcq",
+        "signature": "3snmoquCk1wjqMsBEYeMH1jxm5AvVVjmU1qtWaciRpvkq81o3dW6xGCkVNFFMxDpWtCbao5XVZQXE9hpggH4U4JV"
+      },
+      "sourceCommit": "f064f18db1da60c4f3e562d4064c8f344042e97e",
+      "reason": "superseded by agent-key approval; kept as provenance"
+    },
+    {
+      "id": "listing-gba-atlas-grace-2026-11",
+      "file": "updates/listing-gba-atlas-grace-2026-11.json",
+      "payloadSha256": "b15db68fda66a3a7044dd0251fef341c7a12cc65bd21bf3cf48b3443996e6bf7",
+      "removedApproval": {
+        "publicKey": "FC1eRr99GGJZuc4KZeUivBpbSMGvjcBB839KaEfAuhcq",
+        "signature": "3BpXWY68qLKJtNH2ApbRvPfp2dPhUzQCXhe9rVvL9e521JTc3nDuz5jdC21rXndf53MtqtSr3jf1jSqK5ZBu8n1P"
+      },
+      "sourceCommit": "f064f18db1da60c4f3e562d4064c8f344042e97e",
+      "reason": "superseded by agent-key approval; kept as provenance"
+    },
+    {
+      "id": "listing-gba-atlas-net-2026-11",
+      "file": "updates/listing-gba-atlas-net-2026-11.json",
+      "payloadSha256": "004c67eeb3e5d35f5ea191f3d23679d266cd5bb26c277232c5d4694280b7a4c8",
+      "removedApproval": {
+        "publicKey": "FC1eRr99GGJZuc4KZeUivBpbSMGvjcBB839KaEfAuhcq",
+        "signature": "KCMK45PfLV99ZHYmi81BUcHHb3k8efwtduN1hBNYjDdoQaudiPbYpshMpEP4QvkRc82Qjo6CyYUqbVUsyES9EZ5"
+      },
+      "sourceCommit": "f064f18db1da60c4f3e562d4064c8f344042e97e",
+      "reason": "superseded by agent-key approval; kept as provenance"
+    },
+    {
+      "id": "listing-gba-broadside-battle-arena-2026-11",
+      "file": "updates/listing-gba-broadside-battle-arena-2026-11.json",
+      "payloadSha256": "20c6c7f70728d05e3eab1d71b01f3e9031e39a7c9a2ac84a6c338626cb53f0d2",
+      "removedApproval": {
+        "publicKey": "FC1eRr99GGJZuc4KZeUivBpbSMGvjcBB839KaEfAuhcq",
+        "signature": "3eK6BJwStiBLZwhmMCDnjYtxWKbT8H8wraxjVSXKMdZL5zu2B6Z1gZZmHF9SKnqmfp8U5Ct3LRwPsQV9vs3mGRBH"
+      },
+      "sourceCommit": "f064f18db1da60c4f3e562d4064c8f344042e97e",
+      "reason": "superseded by agent-key approval; kept as provenance"
+    },
+    {
+      "id": "listing-gba-dark-core-roasters-2026-11",
+      "file": "updates/listing-gba-dark-core-roasters-2026-11.json",
+      "payloadSha256": "58cd66e85d44886ff33e1d3a86d1fc22757fa184e668dcb7ad5a8aeeb6655e73",
+      "removedApproval": {
+        "publicKey": "FC1eRr99GGJZuc4KZeUivBpbSMGvjcBB839KaEfAuhcq",
+        "signature": "7TJMNWURzQab2TycnrNrpmeiD8CMNgYtTySWrXT2iyp8TvkbxmcCntr9BrSuUBnPzv344i5sDp1Nt69hPrdnyWr"
+      },
+      "sourceCommit": "f064f18db1da60c4f3e562d4064c8f344042e97e",
+      "reason": "superseded by agent-key approval; kept as provenance"
+    },
+    {
+      "id": "listing-gba-empiria-88-2026-11",
+      "file": "updates/listing-gba-empiria-88-2026-11.json",
+      "payloadSha256": "5e0bea55986d69fa080d9fbf2127b75ee5806d90bd9be4a2bfab9b68a3aeae42",
+      "removedApproval": {
+        "publicKey": "FC1eRr99GGJZuc4KZeUivBpbSMGvjcBB839KaEfAuhcq",
+        "signature": "4vj4H2nmzLt6SoyAFYvkQTznbXQmdtdPaexKRTq1wo8iSXAkd9csSgJ9L3mYPZsvtTHqxVhQWJi6xpnq3FQnEXTx"
+      },
+      "sourceCommit": "f064f18db1da60c4f3e562d4064c8f344042e97e",
+      "reason": "superseded by agent-key approval; kept as provenance"
+    },
+    {
+      "id": "listing-gba-galia-business-association-2026-11",
+      "file": "updates/listing-gba-galia-business-association-2026-11.json",
+      "payloadSha256": "ab319079887d2c04b297b49e309f593c482e7ef78c297f9d9044618951e7b401",
+      "removedApproval": {
+        "publicKey": "FC1eRr99GGJZuc4KZeUivBpbSMGvjcBB839KaEfAuhcq",
+        "signature": "4NPgSy2t2W15mhgaas3h43x2joUa3dg1eoEDAWhuuRLTfVoz7MEdbibn23FrrGAJhDkHLcdpPuQz8eAVT7sMa7TV"
+      },
+      "sourceCommit": "f064f18db1da60c4f3e562d4064c8f344042e97e",
+      "reason": "superseded by agent-key approval; kept as provenance"
+    },
+    {
+      "id": "listing-gba-galia-merchants-2026-11",
+      "file": "updates/listing-gba-galia-merchants-2026-11.json",
+      "payloadSha256": "39d32b2f5332cb9e1a76faa7998474756b268c9f7b05b6875f32acfb5b0b89af",
+      "removedApproval": {
+        "publicKey": "FC1eRr99GGJZuc4KZeUivBpbSMGvjcBB839KaEfAuhcq",
+        "signature": "2ckeKmPxYHsjyrwFHUbGkU5SDpQErFM2dkBgHKQjhJGnmixogBtoFBxKchgrNKButeedHHsL34pMVUD7m8Ppxo3T"
+      },
+      "sourceCommit": "f064f18db1da60c4f3e562d4064c8f344042e97e",
+      "reason": "superseded by agent-key approval; kept as provenance"
+    },
+    {
+      "id": "listing-gba-galiameta-2026-11",
+      "file": "updates/listing-gba-galiameta-2026-11.json",
+      "payloadSha256": "dbd15d846345acfbb291608310746d398e1e52aec05756fc3c6b2e22f874a60a",
+      "removedApproval": {
+        "publicKey": "FC1eRr99GGJZuc4KZeUivBpbSMGvjcBB839KaEfAuhcq",
+        "signature": "4y33mSJrcVXCpSh74FsGze3JH7rdjSoTcgMKkGRcbpQvuZbUJFY9986mqSxSnJ1PPkESFZ7rZviw2rVq7WR8qRR5"
+      },
+      "sourceCommit": "f064f18db1da60c4f3e562d4064c8f344042e97e",
+      "reason": "superseded by agent-key approval; kept as provenance"
+    },
+    {
+      "id": "listing-gba-grand-gala-2026-11",
+      "file": "updates/listing-gba-grand-gala-2026-11.json",
+      "payloadSha256": "22c5ba2dabe479d241089f628adb73a62ae2ad876823b756614f5dd6812eb1e8",
+      "removedApproval": {
+        "publicKey": "FC1eRr99GGJZuc4KZeUivBpbSMGvjcBB839KaEfAuhcq",
+        "signature": "JwtPXxGJQGt1AirG4paUZRuQthc4sANnXpKNfMqnyQRaN1cWJaHb2mXevprVKtQXgjSpLic4G56ohWtAfRJLZxD"
+      },
+      "sourceCommit": "f064f18db1da60c4f3e562d4064c8f344042e97e",
+      "reason": "superseded by agent-key approval; kept as provenance"
+    },
+    {
+      "id": "listing-gba-intergalactic-gear-2026-11",
+      "file": "updates/listing-gba-intergalactic-gear-2026-11.json",
+      "payloadSha256": "b61c5da447f3c979d8ec2e8ca68df2265e3f99a4202c65c0d342d2f4e9ca5121",
+      "removedApproval": {
+        "publicKey": "FC1eRr99GGJZuc4KZeUivBpbSMGvjcBB839KaEfAuhcq",
+        "signature": "5hB3Uz6CsDyrYAR9t6NsNTgnWE3DT6RozdFw57X8Cno2A7UpEozzkxiXgt46S9ZBUPdgvdBh8xmh6uWfVuo2FxwP"
+      },
+      "sourceCommit": "f064f18db1da60c4f3e562d4064c8f344042e97e",
+      "reason": "superseded by agent-key approval; kept as provenance"
+    },
+    {
+      "id": "listing-gba-intergalactic-herald-2026-11",
+      "file": "updates/listing-gba-intergalactic-herald-2026-11.json",
+      "payloadSha256": "2af9593a79a5064af8b219ed0ec4a19792dab66ed24e854c75ee0cbebe7d1826",
+      "removedApproval": {
+        "publicKey": "FC1eRr99GGJZuc4KZeUivBpbSMGvjcBB839KaEfAuhcq",
+        "signature": "45ERMVHd8mJkfT4YYMyLpULquBiGxkU3uFHnEEjz38RZaGTmXAywYRzfy7cPFAupQvbU8WAKUDGcrN7nXz4XyCHX"
+      },
+      "sourceCommit": "f064f18db1da60c4f3e562d4064c8f344042e97e",
+      "reason": "superseded by agent-key approval; kept as provenance"
+    },
+    {
+      "id": "listing-gba-iris-quest-2026-11",
+      "file": "updates/listing-gba-iris-quest-2026-11.json",
+      "payloadSha256": "5dff2e15f3f99042d0be7594b7b8031c25c4efc86c11922c3b00bed90bb287f4",
+      "removedApproval": {
+        "publicKey": "FC1eRr99GGJZuc4KZeUivBpbSMGvjcBB839KaEfAuhcq",
+        "signature": "5eKPDYV7JYMtcXXaaqLRMc8UBeiGNG8kgQSLrBfQDboSmNRu1UXA1FisQ7vMHjWfSzNMshkckkX93QqWFSGQD2Xf"
+      },
+      "sourceCommit": "f064f18db1da60c4f3e562d4064c8f344042e97e",
+      "reason": "superseded by agent-key approval; kept as provenance"
+    },
+    {
+      "id": "listing-gba-iris-supplies-2026-11",
+      "file": "updates/listing-gba-iris-supplies-2026-11.json",
+      "payloadSha256": "271331d2735d93a1f0992fb8e167e2a5eeb14438ec9ede8c19d27a0883aa5d5a",
+      "removedApproval": {
+        "publicKey": "FC1eRr99GGJZuc4KZeUivBpbSMGvjcBB839KaEfAuhcq",
+        "signature": "4RQkVS1nDHg5UcTiYoyWRZtLHdLJsAo6Jo6K45B8cu7tcC6RfHtXn7dTVARUBa6BjwoyfBJLDwuUeiGGqyeDAnLR"
+      },
+      "sourceCommit": "f064f18db1da60c4f3e562d4064c8f344042e97e",
+      "reason": "superseded by agent-key approval; kept as provenance"
+    },
+    {
+      "id": "listing-gba-neo-aarmstrong-2026-11",
+      "file": "updates/listing-gba-neo-aarmstrong-2026-11.json",
+      "payloadSha256": "5fbaf2e85dd34c1209cfb2135a8ff83a6e1471552ffc9c2f4599bffee6d32565",
+      "removedApproval": {
+        "publicKey": "FC1eRr99GGJZuc4KZeUivBpbSMGvjcBB839KaEfAuhcq",
+        "signature": "vvHQiLxAoenbBJ2YxADXMDxCQACDTguNjN8tTXZnTLXL8gd8Ppr2aTHS9pCoi6ZGeQtKqPJjBTmPty7dMREBLTV"
+      },
+      "sourceCommit": "f064f18db1da60c4f3e562d4064c8f344042e97e",
+      "reason": "superseded by agent-key approval; kept as provenance"
+    },
+    {
+      "id": "listing-gba-onizuk4-2026-11",
+      "file": "updates/listing-gba-onizuk4-2026-11.json",
+      "payloadSha256": "1d3162ae50756de49130ab48cb0188f79d2eec40166a5de99c3d9b600a5aac7f",
+      "removedApproval": {
+        "publicKey": "FC1eRr99GGJZuc4KZeUivBpbSMGvjcBB839KaEfAuhcq",
+        "signature": "JQjuCr4h12nJUjBteybXdjMgXdiiSkjDTZKsHppV7Fv9gaSwW1oNDpvDSyJsi1x51wgFDTmYysZtfoMoLHRMhgj"
+      },
+      "sourceCommit": "f064f18db1da60c4f3e562d4064c8f344042e97e",
+      "reason": "superseded by agent-key approval; kept as provenance"
+    },
+    {
+      "id": "listing-gba-pantheon-2026-11",
+      "file": "updates/listing-gba-pantheon-2026-11.json",
+      "payloadSha256": "8521362bf155f7a3aa9a8218e4ba1fcb1e827d473994ca0b06bb6b55fb7e620d",
+      "removedApproval": {
+        "publicKey": "FC1eRr99GGJZuc4KZeUivBpbSMGvjcBB839KaEfAuhcq",
+        "signature": "2QHZsYJwDMq5kSLWENYXj8ffYYHcmwfiqEsboxzpPcL7UMq9PrT5swEgMKp2j5p67P4pjVTyNfhGfaZDNfR3G32J"
+      },
+      "sourceCommit": "f064f18db1da60c4f3e562d4064c8f344042e97e",
+      "reason": "superseded by agent-key approval; kept as provenance"
+    },
+    {
+      "id": "listing-gba-polaris-fuel-2026-11",
+      "file": "updates/listing-gba-polaris-fuel-2026-11.json",
+      "payloadSha256": "8309adc92293308002dbe2658890fc4b2d770814100a98cdb8ea36eaf09d9bf0",
+      "removedApproval": {
+        "publicKey": "FC1eRr99GGJZuc4KZeUivBpbSMGvjcBB839KaEfAuhcq",
+        "signature": "2Lr2pXi1E6ny9xgpRLi4BqJPVwnoHTPwEBTSDg4cD9o4XiVWhXTdYdxroZzGz1YiSVb4H45Kg1tpUv6y1fzQ7RU7"
+      },
+      "sourceCommit": "f064f18db1da60c4f3e562d4064c8f344042e97e",
+      "reason": "superseded by agent-key approval; kept as provenance"
+    },
+    {
+      "id": "listing-gba-star-seekers-2026-11",
+      "file": "updates/listing-gba-star-seekers-2026-11.json",
+      "payloadSha256": "3ced72962d5da7016de17fe1d6cef21b5ad4d6a13ab062f18f01a5ea91cd5bf8",
+      "removedApproval": {
+        "publicKey": "FC1eRr99GGJZuc4KZeUivBpbSMGvjcBB839KaEfAuhcq",
+        "signature": "3mhsnRQ1456KuaEaM4FCr6yuYhgHVZ9Wne8nTZ5KWJ7As8LmeTWFm8JX2Ec3EM7RAHeAD5QpGXNFs6tCag91kxwL"
+      },
+      "sourceCommit": "f064f18db1da60c4f3e562d4064c8f344042e97e",
+      "reason": "superseded by agent-key approval; kept as provenance"
+    },
+    {
+      "id": "listing-gba-staratlassian-2026-11",
+      "file": "updates/listing-gba-staratlassian-2026-11.json",
+      "payloadSha256": "d24f7a1bfbeffb90afa7b4fd8b36a70ab192c50cdeaea730aab385c940c91b50",
+      "removedApproval": {
+        "publicKey": "FC1eRr99GGJZuc4KZeUivBpbSMGvjcBB839KaEfAuhcq",
+        "signature": "2bmT9ksLPy3tFbvkJE28iHJ5M1CSmmejGw8FAvdRzkCR6U1bbUyXJXBDrnSBTNwAcj1ZBUUfPQNgRJTC9kEAN4yo"
+      },
+      "sourceCommit": "f064f18db1da60c4f3e562d4064c8f344042e97e",
+      "reason": "superseded by agent-key approval; kept as provenance"
+    },
+    {
+      "id": "listing-gba-starblox-2026-11",
+      "file": "updates/listing-gba-starblox-2026-11.json",
+      "payloadSha256": "9981fc948669435ca2f10d0c062fb99c866b1371bea3e1c9d33e8c78f464b63a",
+      "removedApproval": {
+        "publicKey": "FC1eRr99GGJZuc4KZeUivBpbSMGvjcBB839KaEfAuhcq",
+        "signature": "DEU1MmeiGDGp7kVDHicNzUrj8upwzWszTAmSEEJFxny1FiiuS3ZJBaz8mTabWkiGn6NxvF8oB2oGuZV3EDpQSQE"
+      },
+      "sourceCommit": "f064f18db1da60c4f3e562d4064c8f344042e97e",
+      "reason": "superseded by agent-key approval; kept as provenance"
+    },
+    {
+      "id": "listing-gba-subverted-norms-2026-11",
+      "file": "updates/listing-gba-subverted-norms-2026-11.json",
+      "payloadSha256": "133e46d54f45324e981e37a5bffa2b6b4dcacbd56d23086f6aad9530b8af0a2a",
+      "removedApproval": {
+        "publicKey": "FC1eRr99GGJZuc4KZeUivBpbSMGvjcBB839KaEfAuhcq",
+        "signature": "5EVpDUbxQ6erkd74z4mp3zt6XF6Ke47fqmSBcK1zccizcz7kLnXcW2VzYCK8RgixmmyfhzCH4f7PZezpHtN9kga1"
+      },
+      "sourceCommit": "f064f18db1da60c4f3e562d4064c8f344042e97e",
+      "reason": "superseded by agent-key approval; kept as provenance"
+    },
+    {
+      "id": "listing-gba-super-phoenix-dao-2026-11",
+      "file": "updates/listing-gba-super-phoenix-dao-2026-11.json",
+      "payloadSha256": "b6d6d47861099d06f94983748fa62236796985ff97a5f4f2587359964821d02c",
+      "removedApproval": {
+        "publicKey": "FC1eRr99GGJZuc4KZeUivBpbSMGvjcBB839KaEfAuhcq",
+        "signature": "2eJeF4uY5AhfQsiPZ8qpPAVbPVrZD9aAbixea7AA5zdzet7n2yfeZe3S1YSqVc4Kifn276MXBsp3cTBow56BRTbd"
+      },
+      "sourceCommit": "f064f18db1da60c4f3e562d4064c8f344042e97e",
+      "reason": "superseded by agent-key approval; kept as provenance"
+    },
+    {
+      "id": "listing-gba-super-phoenix-sports-2026-11",
+      "file": "updates/listing-gba-super-phoenix-sports-2026-11.json",
+      "payloadSha256": "2a6c91710824e0c4f0dc4f46bc458448139f82846af6e02ca679aa03ac7dff24",
+      "removedApproval": {
+        "publicKey": "FC1eRr99GGJZuc4KZeUivBpbSMGvjcBB839KaEfAuhcq",
+        "signature": "4QxeGu7gtynv4PRBFUW6qAjhUsDqmfCrNpeVvkWvz9cWS8jpjnvT3KSg9RaUK6XCsdpBk4Az5KsxAFwqaxZoec1w"
+      },
+      "sourceCommit": "f064f18db1da60c4f3e562d4064c8f344042e97e",
+      "reason": "superseded by agent-key approval; kept as provenance"
+    },
+    {
+      "id": "guild-aephia-industries-2026-11",
+      "file": "updates/guild-aephia-industries-2026-11.json",
+      "payloadSha256": "7c742771b516aa4194674e53582cdaa44773485a4e5b5a4a4d33bb471312d9e2",
+      "removedApproval": {
+        "publicKey": "FC1eRr99GGJZuc4KZeUivBpbSMGvjcBB839KaEfAuhcq",
+        "signature": "4UMGmU5FjzncWjgDrN9RQ1tsuY8cKpaLNZ6nCP2JFDxNrmxUkBhfXz4iHCQDTRd1pxNqKt6suDZBCTn1kURNhRNG"
+      },
+      "sourceCommit": "f064f18db1da60c4f3e562d4064c8f344042e97e",
+      "reason": "superseded by agent-key approval; kept as provenance"
+    },
+    {
+      "id": "guild-agora-2026-11",
+      "file": "updates/guild-agora-2026-11.json",
+      "payloadSha256": "9dbd305d23b3a384cb4c825cb53c10512aa3341d9d4634988f5465412edf992d",
+      "removedApproval": {
+        "publicKey": "FC1eRr99GGJZuc4KZeUivBpbSMGvjcBB839KaEfAuhcq",
+        "signature": "4fxTa9EYp5fX6NaYYfmYdJocZooWq5gb5fHrt18Q1YNpfj91b4o9LNZnsbd4NtuMaVajeoPVy2V7adaea8Hmjvv4"
+      },
+      "sourceCommit": "f064f18db1da60c4f3e562d4064c8f344042e97e",
+      "reason": "superseded by agent-key approval; kept as provenance"
+    },
+    {
+      "id": "guild-bulk-2026-11",
+      "file": "updates/guild-bulk-2026-11.json",
+      "payloadSha256": "d381918382c16f7e0cb6bb59476a0005ba25e3589cc476acd8545177f6ae7900",
+      "removedApproval": {
+        "publicKey": "FC1eRr99GGJZuc4KZeUivBpbSMGvjcBB839KaEfAuhcq",
+        "signature": "4KYkPnM21fgooWpqDd2RfyEUYS5F42pjtkZCwEw4BJvRuzoHErwNQP6DWEjjHVkAwFFe36XPiWv8688h8WuaJQbe"
+      },
+      "sourceCommit": "f064f18db1da60c4f3e562d4064c8f344042e97e",
+      "reason": "superseded by agent-key approval; kept as provenance"
+    },
+    {
+      "id": "guild-coexist-2026-11",
+      "file": "updates/guild-coexist-2026-11.json",
+      "payloadSha256": "2ec95cee926babc405481738efd9315553796dbb61d062428de0c230bde6f8d0",
+      "removedApproval": {
+        "publicKey": "FC1eRr99GGJZuc4KZeUivBpbSMGvjcBB839KaEfAuhcq",
+        "signature": "4q2T4Hgt7b75EHeJr1DgcMNfbdmyaXnsUHs2ncMbXMgTTxNN8ydLhDkfNRqwhAhHkvGk2EFhNTi69w9iJ1MM1C29"
+      },
+      "sourceCommit": "f064f18db1da60c4f3e562d4064c8f344042e97e",
+      "reason": "superseded by agent-key approval; kept as provenance"
+    },
+    {
+      "id": "guild-dark-matter-2026-11",
+      "file": "updates/guild-dark-matter-2026-11.json",
+      "payloadSha256": "116523f3b62d6faa4365d4342fb19f93a4d916b98b7bf3d73b270d9a3e89046a",
+      "removedApproval": {
+        "publicKey": "FC1eRr99GGJZuc4KZeUivBpbSMGvjcBB839KaEfAuhcq",
+        "signature": "4nS8ny8exir2yvuodKfuTBCLxz51tbZukTjWjhBQ2Uq1numgbcZMDxxTaiY6q4YwiCmzjSzSYMbv291zBSkhY1Gq"
+      },
+      "sourceCommit": "f064f18db1da60c4f3e562d4064c8f344042e97e",
+      "reason": "superseded by agent-key approval; kept as provenance"
+    },
+    {
+      "id": "guild-deep-profits-2026-11",
+      "file": "updates/guild-deep-profits-2026-11.json",
+      "payloadSha256": "158dcfe4954857a5228bc67bbca18f57d059022f1110b610f1258f031b00756f",
+      "removedApproval": {
+        "publicKey": "FC1eRr99GGJZuc4KZeUivBpbSMGvjcBB839KaEfAuhcq",
+        "signature": "513ni8QsDy1pBoTfMgut8Yha9W9Anni2wTjGgMPSZi9dDSTbqG2Tw6ugM6XYfDFJ7cHVWGGhV6c9MfVthFfVSC7t"
+      },
+      "sourceCommit": "f064f18db1da60c4f3e562d4064c8f344042e97e",
+      "reason": "superseded by agent-key approval; kept as provenance"
+    },
+    {
+      "id": "guild-eclypse-2026-11",
+      "file": "updates/guild-eclypse-2026-11.json",
+      "payloadSha256": "990ec59a4874ec8c09e8432641d7a4f3fb86ee3a01c550cdb2155602188749ae",
+      "removedApproval": {
+        "publicKey": "FC1eRr99GGJZuc4KZeUivBpbSMGvjcBB839KaEfAuhcq",
+        "signature": "8ETeF2Aku8k8z6xeTEfVww5ZW48f1hyf7ecNVDmvE76ZzPnazybbYPCVgjn47rGnXpYCMvTtSufbW3A4BGvvasJ"
+      },
+      "sourceCommit": "f064f18db1da60c4f3e562d4064c8f344042e97e",
+      "reason": "superseded by agent-key approval; kept as provenance"
+    },
+    {
+      "id": "guild-economic-vanguard-2026-11",
+      "file": "updates/guild-economic-vanguard-2026-11.json",
+      "payloadSha256": "792a46ae8c3aa320341113dc9b04d683d818ebcc68b61a7a523d0bb8b40d54b1",
+      "removedApproval": {
+        "publicKey": "FC1eRr99GGJZuc4KZeUivBpbSMGvjcBB839KaEfAuhcq",
+        "signature": "2Qu6DXqg9b1RQ3Vz4Agb1siE2BPNWF9VJ9uG99om28s7ygo6uP5qV2GDUZaRM11GLKxTTLJ2K8xtc3S9Gjh5rsvN"
+      },
+      "sourceCommit": "f064f18db1da60c4f3e562d4064c8f344042e97e",
+      "reason": "superseded by agent-key approval; kept as provenance"
+    },
+    {
+      "id": "guild-engineering-guild-2026-11",
+      "file": "updates/guild-engineering-guild-2026-11.json",
+      "payloadSha256": "3787353f538473fab97e7fc160dc000a82f2596741f898bf76a6fc1a7fe6648f",
+      "removedApproval": {
+        "publicKey": "FC1eRr99GGJZuc4KZeUivBpbSMGvjcBB839KaEfAuhcq",
+        "signature": "4dQxF1HgzbgKT1tFvj53xq1ML6ZvVBNicPM35pwVctXytwaDNLFmT57C9zznzNArB73BYtPA5sxTWsw8W8itkxGT"
+      },
+      "sourceCommit": "f064f18db1da60c4f3e562d4064c8f344042e97e",
+      "reason": "superseded by agent-key approval; kept as provenance"
+    },
+    {
+      "id": "guild-espaco-continuo-2026-11",
+      "file": "updates/guild-espaco-continuo-2026-11.json",
+      "payloadSha256": "890a93e4eb6d4f113bf07eb5e52c2762bdad5685a45928732b3e8b5f17c99c2c",
+      "removedApproval": {
+        "publicKey": "FC1eRr99GGJZuc4KZeUivBpbSMGvjcBB839KaEfAuhcq",
+        "signature": "4UYeqFQhSHA2wwms3KauJDAUyQ2vCUHoX4eSuENmY7DfZvdWbjdL79fY3Jku4ab52Y8F7L1iuSkWnHjfyqQUttSn"
+      },
+      "sourceCommit": "f064f18db1da60c4f3e562d4064c8f344042e97e",
+      "reason": "superseded by agent-key approval; kept as provenance"
+    },
+    {
+      "id": "guild-heimdall-industries-2026-11",
+      "file": "updates/guild-heimdall-industries-2026-11.json",
+      "payloadSha256": "fae15bbd5bdc9913dfd367629f629d3b8768d7a247e7620f82e65cdcd87e8a20",
+      "removedApproval": {
+        "publicKey": "FC1eRr99GGJZuc4KZeUivBpbSMGvjcBB839KaEfAuhcq",
+        "signature": "464FHFRo62uqLB88YDnaHUoK7ysu1M19tbz5R8ZKpxVnmPFRSpjbtPpUYMWSNcM9dYg9rGSNa2UAgaur7FwrZc93"
+      },
+      "sourceCommit": "f064f18db1da60c4f3e562d4064c8f344042e97e",
+      "reason": "superseded by agent-key approval; kept as provenance"
+    },
+    {
+      "id": "guild-ianomami-2026-11",
+      "file": "updates/guild-ianomami-2026-11.json",
+      "payloadSha256": "d15edc79e205b73a502b556ae1577b883e5f082d7fb65d159549a9e7b2723b5c",
+      "removedApproval": {
+        "publicKey": "FC1eRr99GGJZuc4KZeUivBpbSMGvjcBB839KaEfAuhcq",
+        "signature": "3EQZfyBJJsgBDJJbNugjkBsyoHR7R2s9H8yGTJb7DTLcbLxJXwbcZbsdK1wjvx4wgFsTbvpdaUumnSaCb896LWNp"
+      },
+      "sourceCommit": "f064f18db1da60c4f3e562d4064c8f344042e97e",
+      "reason": "superseded by agent-key approval; kept as provenance"
+    },
+    {
+      "id": "guild-intergalactic-coalition-2026-11",
+      "file": "updates/guild-intergalactic-coalition-2026-11.json",
+      "payloadSha256": "bdecd94051665019a04fd184e71b360d32cab056b5f01f0c45f482ae7deb16ba",
+      "removedApproval": {
+        "publicKey": "FC1eRr99GGJZuc4KZeUivBpbSMGvjcBB839KaEfAuhcq",
+        "signature": "K9q4f4Hmdono9rZ9wN5bS3Mw5euqsF5t1yQpVvTk9qdzAZVVVEVtb4Riw4FdKasHWanoVVhwtLFcx21bQt23mbV"
+      },
+      "sourceCommit": "f064f18db1da60c4f3e562d4064c8f344042e97e",
+      "reason": "superseded by agent-key approval; kept as provenance"
+    },
+    {
+      "id": "guild-java-2026-11",
+      "file": "updates/guild-java-2026-11.json",
+      "payloadSha256": "1790dfc34d8b5431fc1c7ce80d0f2e779f4863c8ae4acbb9f6da222ec7fd055c",
+      "removedApproval": {
+        "publicKey": "FC1eRr99GGJZuc4KZeUivBpbSMGvjcBB839KaEfAuhcq",
+        "signature": "SZrr8cFZMsNcMHYRoKrN4mqv8J8tRAZmmd1gQBUcZByfMmagheZJs2B6PUomKdXwxeQd2FxHnDRFb1YxvA36m3X"
+      },
+      "sourceCommit": "f064f18db1da60c4f3e562d4064c8f344042e97e",
+      "reason": "superseded by agent-key approval; kept as provenance"
+    },
+    {
+      "id": "guild-la-republica-2026-11",
+      "file": "updates/guild-la-republica-2026-11.json",
+      "payloadSha256": "ef81c8ccfd18cd22615ea514c79df71342c36c12246f8e4bb841f3e1fb8116d5",
+      "removedApproval": {
+        "publicKey": "FC1eRr99GGJZuc4KZeUivBpbSMGvjcBB839KaEfAuhcq",
+        "signature": "451P174EbiumXPL5bimQBetrdj3yrFkt5xrih6ejCJys7X6v7MDYMAY9RbyLDir6oiYjfK3tr5mhrBoHPxFpJKsE"
+      },
+      "sourceCommit": "f064f18db1da60c4f3e562d4064c8f344042e97e",
+      "reason": "superseded by agent-key approval; kept as provenance"
+    },
+    {
+      "id": "guild-narasimha-machine-2026-11",
+      "file": "updates/guild-narasimha-machine-2026-11.json",
+      "payloadSha256": "eecab54c635db31fd24086af9a12b83a6aba8550426b5b1652ad7a6747a50e6c",
+      "removedApproval": {
+        "publicKey": "FC1eRr99GGJZuc4KZeUivBpbSMGvjcBB839KaEfAuhcq",
+        "signature": "3oWeUXtkHk2n6uTrwcmHjNfL36naQJrQNoJe6RgCjCKmTvSJ6pS94h7j7dTEnyvPXAjz8qpcM8iVDUgGPEC8Mi3g"
+      },
+      "sourceCommit": "f064f18db1da60c4f3e562d4064c8f344042e97e",
+      "reason": "superseded by agent-key approval; kept as provenance"
+    },
+    {
+      "id": "guild-nft-italia-2026-11",
+      "file": "updates/guild-nft-italia-2026-11.json",
+      "payloadSha256": "9a1b67b5d1e1993621c58e9b459844fd8c09db4adfceb349d76b102900edbf74",
+      "removedApproval": {
+        "publicKey": "FC1eRr99GGJZuc4KZeUivBpbSMGvjcBB839KaEfAuhcq",
+        "signature": "4fBPuetDt35Nzz7AbpzBKzimxp3o6CMPMtvFGE7j9y5k5NayqBqfUecaSUvcnt4Lcs2BRMjgjAervJ9tPtXBBDMU"
+      },
+      "sourceCommit": "f064f18db1da60c4f3e562d4064c8f344042e97e",
+      "reason": "superseded by agent-key approval; kept as provenance"
+    },
+    {
+      "id": "guild-quimera-2026-11",
+      "file": "updates/guild-quimera-2026-11.json",
+      "payloadSha256": "bdcff0174e05b03d6c37cdf1a257b787b4b83939e44103d72a3f95656cf8ff42",
+      "removedApproval": {
+        "publicKey": "FC1eRr99GGJZuc4KZeUivBpbSMGvjcBB839KaEfAuhcq",
+        "signature": "5ofQPJyxcvZ5h6Ut8wUhAr4HbbauWbdEkcCqXeKywnTDWV7jX9XV7pvQ6sZwnoHVTkVqBqcX3MuvVVE3G611NWDz"
+      },
+      "sourceCommit": "f064f18db1da60c4f3e562d4064c8f344042e97e",
+      "reason": "superseded by agent-key approval; kept as provenance"
+    },
+    {
+      "id": "guild-rome-guild-2026-11",
+      "file": "updates/guild-rome-guild-2026-11.json",
+      "payloadSha256": "3fac01985cb4c26dee8cded46481046b1b5cf6d28bc1e4d5cc818ebb3cc9acff",
+      "removedApproval": {
+        "publicKey": "FC1eRr99GGJZuc4KZeUivBpbSMGvjcBB839KaEfAuhcq",
+        "signature": "3PJhturMKHGEcfGT8Mc1AMVn3U37N52zkDZeR5R62rf312fZ483WSjDbmdoVMwDWodeL8Lm4ZRFtXV7FXtD2V1LF"
+      },
+      "sourceCommit": "f064f18db1da60c4f3e562d4064c8f344042e97e",
+      "reason": "superseded by agent-key approval; kept as provenance"
+    },
+    {
+      "id": "guild-shadow-loyal-2026-11",
+      "file": "updates/guild-shadow-loyal-2026-11.json",
+      "payloadSha256": "32f024c45941d79ffd782637e6fd475c240f13ea364c50dc75eb2ae7cc579007",
+      "removedApproval": {
+        "publicKey": "FC1eRr99GGJZuc4KZeUivBpbSMGvjcBB839KaEfAuhcq",
+        "signature": "4yyCuCr3GKMXnrKyEpB3dAE5BDuNpxfsMTWfBQ5C6y9C16ei7n4MgXZGMqZRC1kGmbbRUucaCfuFQJbeh4E6W4yy"
+      },
+      "sourceCommit": "f064f18db1da60c4f3e562d4064c8f344042e97e",
+      "reason": "superseded by agent-key approval; kept as provenance"
+    },
+    {
+      "id": "guild-skull-and-bones-2026-11",
+      "file": "updates/guild-skull-and-bones-2026-11.json",
+      "payloadSha256": "d03f6f3f261503adb01bc8f6f8d19a7d6429257c365322b74165b705188e3dd8",
+      "removedApproval": {
+        "publicKey": "FC1eRr99GGJZuc4KZeUivBpbSMGvjcBB839KaEfAuhcq",
+        "signature": "4GJZTfLq4e2M2DZ8o6Z1x7NrQ6QjdNPaME6mNP7PDzwau7opuchFRKkDmC47M1LpW18aq31R68rwsS6nLZtd258T"
+      },
+      "sourceCommit": "f064f18db1da60c4f3e562d4064c8f344042e97e",
+      "reason": "superseded by agent-key approval; kept as provenance"
+    },
+    {
+      "id": "guild-solaris-2026-11",
+      "file": "updates/guild-solaris-2026-11.json",
+      "payloadSha256": "107c262ac5764fc51be581de9ebd618bcec5dd7633866a29f8c336212a6dbc4d",
+      "removedApproval": {
+        "publicKey": "FC1eRr99GGJZuc4KZeUivBpbSMGvjcBB839KaEfAuhcq",
+        "signature": "Va7gtLPkDYVmZUpE3QYs7VEoD5xDPxd6tNm3ogMbqDbW4tFCEVrKxZPcQBGh7QP6VwwPFKxTR6aZ8gFnq7BWsjT"
+      },
+      "sourceCommit": "f064f18db1da60c4f3e562d4064c8f344042e97e",
+      "reason": "superseded by agent-key approval; kept as provenance"
+    },
+    {
+      "id": "guild-star-atlas-germany-2026-11",
+      "file": "updates/guild-star-atlas-germany-2026-11.json",
+      "payloadSha256": "a96fe40ea4ea79a94c32dfb0be252cd6d757294c137f6f65f8a38291be2d49d1",
+      "removedApproval": {
+        "publicKey": "FC1eRr99GGJZuc4KZeUivBpbSMGvjcBB839KaEfAuhcq",
+        "signature": "4TfnqpWBeiyGFVMKxscVuYyL1XnrzUeR93HUcdG3nvqNysrhXEVnUYcDidAfrYkkM3NJTgNCbar2yBEdrEYJKiZB"
+      },
+      "sourceCommit": "f064f18db1da60c4f3e562d4064c8f344042e97e",
+      "reason": "superseded by agent-key approval; kept as provenance"
+    },
+    {
+      "id": "guild-star-atlas-italia-2026-11",
+      "file": "updates/guild-star-atlas-italia-2026-11.json",
+      "payloadSha256": "c622f047607f1dc12c40b4ac8372d1bccf8433d04f026e2fe3e7484a7b8d4687",
+      "removedApproval": {
+        "publicKey": "FC1eRr99GGJZuc4KZeUivBpbSMGvjcBB839KaEfAuhcq",
+        "signature": "3FGDvCToyNkVyragjB8ZWAcdNztLT6osP1QpHxzHN5SBbKrieCKtWz1mUYD2Xcy7ckG5J5KD4rkL6k5zhdKzWJQL"
+      },
+      "sourceCommit": "f064f18db1da60c4f3e562d4064c8f344042e97e",
+      "reason": "superseded by agent-key approval; kept as provenance"
+    },
+    {
+      "id": "guild-syntax-2026-11",
+      "file": "updates/guild-syntax-2026-11.json",
+      "payloadSha256": "2a7dd1f909b03ddb52d16a233c210f7dc76e4170974f7b6be3062d032aae6523",
+      "removedApproval": {
+        "publicKey": "FC1eRr99GGJZuc4KZeUivBpbSMGvjcBB839KaEfAuhcq",
+        "signature": "32JdGEqjz5takuGamqpMK4esVSyMwsFBc19C8eKChhukB9nJoWe6gW9n9yeRY8mb4138xnAu51XnL94j1yM5iGk8"
+      },
+      "sourceCommit": "f064f18db1da60c4f3e562d4064c8f344042e97e",
+      "reason": "superseded by agent-key approval; kept as provenance"
+    },
+    {
+      "id": "guild-the-club-2026-11",
+      "file": "updates/guild-the-club-2026-11.json",
+      "payloadSha256": "97cd71b11cce6542ef89501fc047367f02d01df0d0a39b63372352ca3dd8fef0",
+      "removedApproval": {
+        "publicKey": "FC1eRr99GGJZuc4KZeUivBpbSMGvjcBB839KaEfAuhcq",
+        "signature": "28M5GAz5eMkn2FLchhFyEmvnUee7KrMXMaywVnm9MAcP5QBhvwb8dkWbKE6d1SuSTVwfZG3VJhCphojXMQ2aknCC"
+      },
+      "sourceCommit": "f064f18db1da60c4f3e562d4064c8f344042e97e",
+      "reason": "superseded by agent-key approval; kept as provenance"
+    },
+    {
+      "id": "guild-the-unseen-2026-11",
+      "file": "updates/guild-the-unseen-2026-11.json",
+      "payloadSha256": "a3503182a5e0deb3e5698520208566f5c73311993d7c491a9cea78ca3f03137a",
+      "removedApproval": {
+        "publicKey": "FC1eRr99GGJZuc4KZeUivBpbSMGvjcBB839KaEfAuhcq",
+        "signature": "3F8uUrVr6NScnquC6GMab1YRpFrRqzHGgzkrhGra1VGN9BDioi7r7m4xczoaTCVUJ3sDKdiHyKECnoaNmyGXaDNv"
+      },
+      "sourceCommit": "f064f18db1da60c4f3e562d4064c8f344042e97e",
+      "reason": "superseded by agent-key approval; kept as provenance"
+    },
+    {
+      "id": "guild-vanguard-2026-11",
+      "file": "updates/guild-vanguard-2026-11.json",
+      "payloadSha256": "bd73ea2624ef3204920b55a3bab50a13c70c6d7c61a327e6e16e4c76af11b4e0",
+      "removedApproval": {
+        "publicKey": "FC1eRr99GGJZuc4KZeUivBpbSMGvjcBB839KaEfAuhcq",
+        "signature": "3SnaswVZnEYh4SuExciTKnnUiCjJceECFdQBzRdu5BeUPjogL8mYuaf8KUdYjCrCDeqTDWMDuTXsKUsUWYgB1Sda"
+      },
+      "sourceCommit": "f064f18db1da60c4f3e562d4064c8f344042e97e",
+      "reason": "superseded by agent-key approval; kept as provenance"
+    },
+    {
+      "id": "listing-starlink-withdraw-2026-11",
+      "file": "updates/listing-starlink-withdraw-2026-11.json",
+      "payloadSha256": "59bcabaafad33c55ed134b0c1aabf245c899c01d1f6e5640bfd9265509bdc446",
+      "removedApproval": {
+        "publicKey": "FC1eRr99GGJZuc4KZeUivBpbSMGvjcBB839KaEfAuhcq",
+        "signature": "Jr7a7qRmxQyBbPQfPwSXskp3UUFhfxevaYkMkbYp2gsTNY3eeCzTgnWq6K1e1GQACbq8CnNGYKL19FrtFkyqoCv"
+      },
+      "sourceCommit": "f064f18db1da60c4f3e562d4064c8f344042e97e",
+      "reason": "superseded by agent-key approval; kept as provenance"
+    },
+    {
+      "id": "listing-starlink-referral-2026-11",
+      "file": "updates/listing-starlink-referral-2026-11.json",
+      "payloadSha256": "da6c4bfe91bf5f9cbc5c5d4d84701cdab4e77b9e63fb513485f1e1d25c912166",
+      "removedApproval": {
+        "publicKey": "FC1eRr99GGJZuc4KZeUivBpbSMGvjcBB839KaEfAuhcq",
+        "signature": "3Y18pUkjtZnxudV94bbosgL5QEVActzAK1eJ4fHp6VkdUpyHX2znKzNaiJNEMnpAYcKgW657KCnMPU5KoJqN7abq"
+      },
+      "sourceCommit": "f064f18db1da60c4f3e562d4064c8f344042e97e",
+      "reason": "superseded by agent-key approval; kept as provenance"
+    }
+  ]
+}
