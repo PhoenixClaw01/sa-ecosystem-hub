@@ -34,6 +34,8 @@ A payload with kind `story-optin` also has a `storyOptIn` object. The fields are
 
 A changed body, an unknown signer, a repeated update id, or a manifest hash that does not match the pin is not served.
 
+Files under `provenance/` are not listed in the manifest, so a node never reads them and they never count toward a threshold. They keep earlier approval signatures that were replaced, together with the commit they came from, so anyone can still check them by hand.
+
 ## Claims and attestations (hand-added from node `docs/claim-and-verify.md`, main `9c71cf6`)
 
 - **`claim`** binds one wallet to one identity (the claim path uses a wallet signature; no claims exist yet): a listing by `listingId`, or a guild by name. The claimant signs the usual hub message (`sa-ecosystem-node:hub-update:v1` + canonical JSON), which includes `wallet`, `hubId` (this repository's normalized URL), `nonce`, `expiresAt`, `subject` (`player`, `guild` or `business`), `identity`, and for players `playerProfile`. `author` must equal `wallet`. Unknown fields are rejected.
