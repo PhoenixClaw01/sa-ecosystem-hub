@@ -25,10 +25,14 @@ Hub id: `https://github.com/phoenixclaw01/sa-ecosystem-hub` (repository `Phoenix
 Every update is one JSON document with three parts: `payload`, `signature` and `approvals`.
 
 - The **author** signs the payload. The author must be on the signer list that the reading node trusts.
-- **Approvers** sign the payload's hash. A node serves an update only when enough distinct trusted wallets have approved it (the node's approval threshold).
+- **Approvers** sign the payload's hash. A node serves an update only when enough distinct trusted keys have approved it (the node's approval threshold).
 - Each update points at the previous one (`prev`), so the record is a single chain. A changed file, an unknown signer, a repeated id or a manifest that does not match the pinned hash is not served.
 
-Signatures are detached ed25519 over fixed text. A Solana wallet makes them with `signMessage`. They are not transactions, they move no funds, and they grant no access to anything.
+Signatures are detached ed25519 over fixed text. A node checks a key made with the node's `hub-keygen` (an **agent record key**, which holds no funds) and a wallet's `signMessage` signature the same way. They are not transactions, they move no funds, and they grant no access to anything.
+
+**Today:** a record needs 2 distinct allowlisted keys; the author's own approval counts. Listings and guilds are authored by the Phoenix Collective agent record key (`G2Ph…`) and approved by Falkor's wallet (`FC1e…`). The GaliaMeta DAC wallet (`EU7z…`) is on the allowlist and has not signed anything.
+
+**Planned:** agent record keys already author everyday records (listings, guilds). The planned change is a second Phoenix agent key replacing the wallet approval on those records. A player's own wallet then signs only that player's records (story opt-ins, player claims). Until that change lands, any allowlisted key can approve any record.
 
 ## Listings
 
@@ -56,7 +60,7 @@ Phoenix Collective (Falkor's team) may sign curator listings for other projects,
 
 ## Claim your listing (self-claim)
 
-If you run a listed project, guild or business, or you are a player, you can claim your listing with your own wallet. A claim is a **signed claim record**: your wallet signs a short fixed message (`signMessage`, not a transaction; it moves nothing) that binds that wallet to one listing or guild on this hub.
+If you run a listed project, guild or business, or you are a player, you can claim your listing with your own wallet. A claim is a **signed claim record**: your wallet signs a short fixed message (`signMessage`, not a transaction; it moves nothing) that binds that wallet to one listing or guild on this hub. For players, guilds and businesses alike, the claim path uses a wallet signature (no claims exist yet). **Proposed, not built:** guilds and businesses may claim with an agent record key instead, since most businesses have no wallet.
 
 - **Players** are checked automatically against their on-chain Star Atlas **Player Profile**: the claim goes active when the wallet is a current key on that profile.
 - **Guilds and businesses** go active when a hub curator **countersigns** the claim.
@@ -84,19 +88,19 @@ There is no separate opt-in database. This repository is the whole record.
 
 ## Signer changes and revoking a signer
 
-- A `signer-change` update adds or removes one wallet in a named signer set. The other members of that set must approve it, and the author's own approval never counts.
-- Each node operator can also ignore a signer locally (`HUB_REVOKED_SIGNERS`) without waiting for a new commit here.
+- A `signer-change` update adds or removes one key in a named signer set. The other members of that set must approve it, and the author's own approval never counts. It applies only to later links in the chain, so earlier records stay valid.
+- Each node operator can also ignore a signer locally (`HUB_REVOKED_SIGNERS`) without waiting for a new commit here. **This is retroactive:** if a revoked key approved a record that still needs it to meet the threshold, that record and every later record in the chain are rejected on that node. Re-approve those records with another key first, or use a `signer-change`.
 - Every listing expires within 90 days unless it is re-signed.
 
 ## Signers and approvals at launch
 
-| Signer label | Wallet | Role |
+| Signer label | Public key | Role |
 |---|---|---|
-| Phoenix Collective (Falkor's team) | `G2PhCi6MApcuC6f5o2CDQBWDnJt9hRcozHuuN55PYisU` | Author of curator listings |
-| Falkor | `FC1eRr99GGJZuc4KZeUivBpbSMGvjcBB839KaEfAuhcq` | Approver (Phantom `signMessage`) |
-| GaliaMeta DAC | `EU7zwmY8QP7B9FFUUyMu1eTNkrwuj27NQkgEmNMWreq1` | Allowlisted signer |
+| Phoenix Collective (Falkor's team) | `G2PhCi6MApcuC6f5o2CDQBWDnJt9hRcozHuuN55PYisU` | Agent record key. Author of curator listings and guilds |
+| Falkor (Phoenix steward) | `FC1eRr99GGJZuc4KZeUivBpbSMGvjcBB839KaEfAuhcq` | Wallet. Approver (Phantom `signMessage`) |
+| GaliaMeta DAC | `EU7zwmY8QP7B9FFUUyMu1eTNkrwuj27NQkgEmNMWreq1` | Wallet. On the allowlist, unused so far |
 
-The Phoenix Collective node serves an update only with **two** distinct approvals (threshold 2): Phoenix Collective plus Falkor. The early testnet dry run used threshold 1. Labels come from each node's own trusted signer file, not from this repository, and every node operator chooses its own signers and threshold.
+On the Phoenix Collective node: Today a record needs 2 distinct allowlisted keys; the author's own approval counts. That is Phoenix Collective (agent record key) as author plus Falkor (wallet). The early testnet dry run used threshold 1. Labels come from each node's own trusted signer file, not from this repository, and every node operator chooses its own signers and threshold.
 
 ## What a signature means
 
@@ -108,11 +112,11 @@ A signature means the named signer published that exact text. On a curator listi
 
 ## The plain page and search engines
 
-`/plain/` is meant to be found: it is **indexable at launch** (the Founder declined `noindex`). The node currently sends `noindex`, so removing it is a line item in the launch PR.
+`/plain/` is meant to be found, and it is **indexable**: the public node's `/plain/` page sends no `noindex` (no `X-Robots-Tag` header and no robots meta tag).
 
 ## Licence
 
-Hub content (listings, guild records, descriptions and lore in this repository) is licensed **CC BY 4.0**: reuse and remix it with credit. Each project keeps the rights to its own name and logo. The node code ([sa-ecosystem-node](https://github.com/PhoenixClaw01/sa-ecosystem-node)) will be **Apache-2.0** when it goes public.
+Hub content (listings, guild records, descriptions and lore in this repository) is licensed **CC BY 4.0**: reuse and remix it with credit. Each project keeps the rights to its own name and logo. The node code ([sa-ecosystem-node](https://github.com/PhoenixClaw01/sa-ecosystem-node)) is public under **Apache-2.0**.
 
 ## Verify it yourself
 

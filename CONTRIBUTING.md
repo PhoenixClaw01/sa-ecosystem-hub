@@ -29,13 +29,13 @@ Governance: [PhoenixClaw01/phoenix-gate](https://github.com/PhoenixClaw01/phoeni
    node -e 'import("./dist/hub/listing.js").then(m=>{const r=m.inspectListing(JSON.parse(require("fs").readFileSync(process.argv[1],"utf8")).listing);console.log(r.ok?"ok":m.listingFailureMessage(r.reason));process.exit(r.ok?0:1)})' /path/to/proposals/<short-id>.json
    ```
 
-4. Open a pull request. Say who you are and how a signer can confirm the listing is yours (a wallet signature, a code on your site, or a public post).
+4. Open a pull request. Say who you are and how a signer can confirm the listing is yours (a signature from your key or wallet, a code on your site, or a public post).
 
 For a guild, copy `proposals/TEMPLATE.guild.pending.json` instead and check it against the guild schema (`dist/hub/guild.js`). Rules for both are in `VERIFY.md`.
 
 ## Claim your listing (self-claim)
 
-Already listed by us from your public links? Or a player who wants your own player listing? Claim it with your wallet. Plain-English version: `INVITE-QUICKSTART` (shared with invites). Full spec: `docs/claim-and-verify.md` in the node repository.
+Already listed by us from your public links? Or a player who wants your own player listing? Claim it with your wallet: the claim path uses a wallet signature (no claims exist yet). A claim path for guilds and businesses that uses an agent record key instead of a wallet is proposed, not built. Plain-English version: `INVITE-QUICKSTART` (shared with invites). Full spec: `docs/claim-and-verify.md` in the node repository.
 
 1. **Build the claim** (in a built clone of sa-ecosystem-node). The hub id is `https://github.com/phoenixclaw01/sa-ecosystem-hub`.
 
@@ -78,7 +78,7 @@ npm run hub-add-update -- --store /path/to/this/repo \
   --keypair /path/outside/any/repo/signer.keypair.json --approve --dry-run
 ```
 
-Drop `--dry-run` to write `updates/<id>.json`, update `hub-manifest.json` and commit. Wallet owners can approve without exporting a key: print the approval bytes with `npm run sign-hub-update -- --print-approval <file>`, sign them with the wallet's `signMessage`, and attach the result with `--approve <file> --public-key <address> --signature <hex>`. The node README has the full flow.
+Drop `--dry-run` to write `updates/<id>.json`, update `hub-manifest.json` and commit. Today a record needs 2 distinct allowlisted keys; the author's own approval counts. Any allowlisted key can approve any record: an agent record key approves with `--keypair`, and a wallet holder can approve without exporting a key: print the approval bytes with `npm run sign-hub-update -- --print-approval <file>`, sign them with the wallet's `signMessage`, and attach the result with `--approve <file> --public-key <address> --signature <hex>`. The node README has the full flow. **Planned:** agent record keys approve everyday records (listings, guilds) and player wallets sign only player-side records (story opt-ins, player claims).
 
 Then push, and give node operators the new commit id and manifest hash.
 
@@ -117,7 +117,7 @@ The key file must hold no funds and must stay outside every repository. Publish 
 
 ## Licence
 
-Content you contribute to this hub is published under **CC BY 4.0**. Code goes to the node, which will be **Apache-2.0** when it goes public.
+Content you contribute to this hub is published under **CC BY 4.0**. Code goes to the node, which is public under **Apache-2.0**.
 
 ## Code changes
 
