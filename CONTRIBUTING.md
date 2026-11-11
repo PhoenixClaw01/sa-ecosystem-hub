@@ -35,7 +35,7 @@ For a guild, copy `proposals/TEMPLATE.guild.pending.json` instead and check it a
 
 ## Claim your listing (self-claim)
 
-Already listed by us from your public links? Or a player who wants your own player listing? Claim it with your wallet. Plain-English version: `INVITE-QUICKSTART` (shared with invites). Full spec: `docs/claim-and-verify.md` in the node repository.
+Already listed by us from your public links? Or a player who wants your own player listing? Claim it with your wallet. Today every claim is wallet-signed. A claim path for guilds and businesses that uses an agent record key instead of a wallet is proposed, not built. Plain-English version: `INVITE-QUICKSTART` (shared with invites). Full spec: `docs/claim-and-verify.md` in the node repository.
 
 1. **Build the claim** (in a built clone of sa-ecosystem-node). The hub id is `https://github.com/phoenixclaw01/sa-ecosystem-hub`.
 
@@ -78,7 +78,7 @@ npm run hub-add-update -- --store /path/to/this/repo \
   --keypair /path/outside/any/repo/signer.keypair.json --approve --dry-run
 ```
 
-Drop `--dry-run` to write `updates/<id>.json`, update `hub-manifest.json` and commit. Agent record keys approve with `--keypair`. A wallet holder (player-side records) can approve without exporting a key: print the approval bytes with `npm run sign-hub-update -- --print-approval <file>`, sign them with the wallet's `signMessage`, and attach the result with `--approve <file> --public-key <address> --signature <hex>`. The node README has the full flow.
+Drop `--dry-run` to write `updates/<id>.json`, update `hub-manifest.json` and commit. Today any allowlisted key can approve any record: an agent record key approves with `--keypair`, and a wallet holder can approve without exporting a key: print the approval bytes with `npm run sign-hub-update -- --print-approval <file>`, sign them with the wallet's `signMessage`, and attach the result with `--approve <file> --public-key <address> --signature <hex>`. The node README has the full flow. **Planned:** agent record keys approve everyday records (listings, guilds) and player wallets sign only player-side records (story opt-ins, player claims).
 
 Then push, and give node operators the new commit id and manifest hash.
 

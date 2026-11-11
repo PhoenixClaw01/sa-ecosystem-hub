@@ -28,7 +28,11 @@ Every update is one JSON document with three parts: `payload`, `signature` and `
 - **Approvers** sign the payload's hash. A node serves an update only when enough distinct trusted keys have approved it (the node's approval threshold).
 - Each update points at the previous one (`prev`), so the record is a single chain. A changed file, an unknown signer, a repeated id or a manifest that does not match the pinned hash is not served.
 
-Signatures are detached ed25519 over fixed text. Agent record keys (made with the node's `hub-keygen`) sign everyday records such as listings and guilds. A player's own wallet makes the same kind of signature with `signMessage` for that player's records (story opt-ins, player claims). They are not transactions, they move no funds, and they grant no access to anything.
+Signatures are detached ed25519 over fixed text. A node checks a key made with the node's `hub-keygen` (an **agent record key**, which holds no funds) and a wallet's `signMessage` signature the same way. They are not transactions, they move no funds, and they grant no access to anything.
+
+**Today:** the Phoenix Collective node uses threshold 2 and counts the author's own approval. Listings and guilds are authored by the Phoenix Collective agent record key (`G2Ph…`) and approved by Falkor's wallet (`FC1e…`). The GaliaMeta DAC wallet (`EU7z…`) is on the allowlist and has not signed anything.
+
+**Planned:** agent record keys sign everyday records (listings, guilds) and a second Phoenix agent key replaces the wallet approval there. A player's own wallet signs only that player's records (story opt-ins, player claims). Until that migration lands, any allowlisted key can approve any record.
 
 ## Listings
 
@@ -56,7 +60,7 @@ Phoenix Collective (Falkor's team) may sign curator listings for other projects,
 
 ## Claim your listing (self-claim)
 
-If you run a listed project, guild or business, or you are a player, you can claim your listing with your own key. A claim is a **signed claim record**: you sign a short fixed message (not a transaction; it moves nothing) that binds that key to one listing or guild on this hub. **Players** sign with their own wallet (`signMessage`). **Guilds and businesses** may sign with a wallet or with an agent record key; most businesses have no wallet, and that is fine.
+If you run a listed project, guild or business, or you are a player, you can claim your listing with your own wallet. A claim is a **signed claim record**: your wallet signs a short fixed message (`signMessage`, not a transaction; it moves nothing) that binds that wallet to one listing or guild on this hub. Today every claim, including guild and business claims, is wallet-signed. **Proposed, not built:** guilds and businesses may claim with an agent record key instead, since most businesses have no wallet.
 
 - **Players** are checked automatically against their on-chain Star Atlas **Player Profile**: the claim goes active when the wallet is a current key on that profile.
 - **Guilds and businesses** go active when a hub curator **countersigns** the claim.
@@ -84,19 +88,19 @@ There is no separate opt-in database. This repository is the whole record.
 
 ## Signer changes and revoking a signer
 
-- A `signer-change` update adds or removes one key in a named signer set. The other members of that set must approve it, and the author's own approval never counts.
-- Each node operator can also ignore a signer locally (`HUB_REVOKED_SIGNERS`) without waiting for a new commit here.
+- A `signer-change` update adds or removes one key in a named signer set. The other members of that set must approve it, and the author's own approval never counts. It applies only to later links in the chain, so earlier records stay valid.
+- Each node operator can also ignore a signer locally (`HUB_REVOKED_SIGNERS`) without waiting for a new commit here. **This is retroactive:** if a revoked key approved a record that still needs it to meet the threshold, that record and every later record in the chain are rejected on that node. Re-approve those records with another key first, or use a `signer-change`.
 - Every listing expires within 90 days unless it is re-signed.
 
 ## Signers and approvals at launch
 
-| Signer label | Wallet | Role |
+| Signer label | Public key | Role |
 |---|---|---|
-| Phoenix Collective (Falkor's team) | `G2PhCi6MApcuC6f5o2CDQBWDnJt9hRcozHuuN55PYisU` | Author of curator listings |
-| Falkor | `FC1eRr99GGJZuc4KZeUivBpbSMGvjcBB839KaEfAuhcq` | Approver (Phantom `signMessage`) |
-| GaliaMeta DAC | `EU7zwmY8QP7B9FFUUyMu1eTNkrwuj27NQkgEmNMWreq1` | Allowlisted signer |
+| Phoenix Collective (Falkor's team) | `G2PhCi6MApcuC6f5o2CDQBWDnJt9hRcozHuuN55PYisU` | Agent record key. Author of curator listings and guilds |
+| Falkor (Phoenix steward) | `FC1eRr99GGJZuc4KZeUivBpbSMGvjcBB839KaEfAuhcq` | Wallet. Approver (Phantom `signMessage`) |
+| GaliaMeta DAC | `EU7zwmY8QP7B9FFUUyMu1eTNkrwuj27NQkgEmNMWreq1` | Wallet. On the allowlist, unused so far |
 
-The Phoenix Collective node serves an update only with **two** distinct approvals (threshold 2): Phoenix Collective plus Falkor. The early testnet dry run used threshold 1. Labels come from each node's own trusted signer file, not from this repository, and every node operator chooses its own signers and threshold.
+The Phoenix Collective node serves an update only with **two** distinct approvals (threshold 2), and the author's own approval counts as one of them: Phoenix Collective (agent record key) plus Falkor (wallet). The early testnet dry run used threshold 1. Labels come from each node's own trusted signer file, not from this repository, and every node operator chooses its own signers and threshold.
 
 ## What a signature means
 

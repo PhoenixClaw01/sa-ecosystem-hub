@@ -36,7 +36,7 @@ A changed body, an unknown signer, a repeated update id, or a manifest hash that
 
 ## Claims and attestations (hand-added from node `docs/claim-and-verify.md`, main `9c71cf6`)
 
-- **`claim`** binds one public key (for a player, their wallet) to one identity: a listing by `listingId`, or a guild by name. The claimant signs the usual hub message (`sa-ecosystem-node:hub-update:v1` + canonical JSON), which includes `wallet`, `hubId` (this repository's normalized URL), `nonce`, `expiresAt`, `subject` (`player`, `guild` or `business`), `identity`, and for players `playerProfile`. `author` must equal `wallet`. Unknown fields are rejected.
+- **`claim`** binds one wallet (today every claim is wallet-signed) to one identity: a listing by `listingId`, or a guild by name. The claimant signs the usual hub message (`sa-ecosystem-node:hub-update:v1` + canonical JSON), which includes `wallet`, `hubId` (this repository's normalized URL), `nonce`, `expiresAt`, `subject` (`player`, `guild` or `business`), `identity`, and for players `playerProfile`. `author` must equal `wallet`. Unknown fields are rejected.
 - A **player** claim on a new `listingId` (stream `player`) goes active when the wallet is an unexpired key on the named Player Profile (program `pprofELXjL5Kck7Jn5hCpwAL82DpTkSYBENzahVtbc9`). Any other player claim, and every **guild** or **business** claim, needs curator countersigns up to the node's threshold.
 - An active claimant may change logo (hub-relative image), links, site, Discord invite, description, dates, and withdraw. Not the title, owner, stream, category, disclosure or ownership proof after first publication, not another identity, and not signers or thresholds.
 - One wallet holds one identity; one Player Profile backs one identity. The first eligible claim in chain order wins; threshold signers can `resolve` or `revoke`. A claim for another hub, or an expired or revoked claim, does not count.
@@ -45,7 +45,8 @@ A changed body, an unknown signer, a repeated update id, or a manifest hash that
 
 ## Launch configuration (hand-added, not generated)
 
-- The Phoenix Collective node pins this hub with `HUB_APPROVAL_THRESHOLD=2` and `HUB_ALLOW_AUTHOR_APPROVAL=true`: an update counts with the Phoenix Collective (G2Ph) author approval plus the Falkor (FC1e) Phantom approval. The testnet dry run used threshold 1. Other nodes choose their own values.
+- The Phoenix Collective node pins this hub with `HUB_APPROVAL_THRESHOLD=2` and `HUB_ALLOW_AUTHOR_APPROVAL=true`, so the author's own approval counts: an update counts with the Phoenix Collective (G2Ph, agent record key) author approval plus the Falkor (FC1e, wallet) Phantom approval.
+- A node's local revoked list (`HUB_REVOKED_SIGNERS`) is retroactive: if a revoked key approved a record that still needs it to meet the threshold, that record and every later record in the chain are rejected. An in-chain `signer-change` removal applies only to later links. The testnet dry run used threshold 1. Other nodes choose their own values.
 - On Vercel, where there is no `git` binary, the node reads a pinned public `github.com` hub as an HTTPS tarball at exactly `HUB_GIT_COMMIT`, then checks the manifest hash as above. The trusted signer file ships with the function and its sha256 is checked.
 - Hub content is CC BY 4.0.
 - Nodes read only the files listed in `hub-manifest.json`. A `provenance/` folder, if present, is history for humans and is never counted as an approval.
