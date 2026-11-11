@@ -117,7 +117,7 @@ The key file must hold no funds and must stay outside every repository. Publish 
 
 ## Licence
 
-Content you contribute to this hub is published under **CC BY 4.0**. Code goes to the node, which will be **Apache-2.0** when it goes public.
+Content you contribute to this hub is published under **CC BY 4.0**. Code goes to the node, which is public under **Apache-2.0**.
 
 ## Code changes
 

@@ -112,11 +112,11 @@ A signature means the named signer published that exact text. On a curator listi
 
 ## The plain page and search engines
 
-`/plain/` is meant to be found: it is **indexable at launch** (the Founder declined `noindex`). The node currently sends `noindex`, so removing it is a line item in the launch PR.
+`/plain/` is meant to be found, and it is **indexable**: the public node's `/plain/` page sends no `noindex` (no `X-Robots-Tag` header and no robots meta tag).
 
 ## Licence
 
-Hub content (listings, guild records, descriptions and lore in this repository) is licensed **CC BY 4.0**: reuse and remix it with credit. Each project keeps the rights to its own name and logo. The node code ([sa-ecosystem-node](https://github.com/PhoenixClaw01/sa-ecosystem-node)) will be **Apache-2.0** when it goes public.
+Hub content (listings, guild records, descriptions and lore in this repository) is licensed **CC BY 4.0**: reuse and remix it with credit. Each project keeps the rights to its own name and logo. The node code ([sa-ecosystem-node](https://github.com/PhoenixClaw01/sa-ecosystem-node)) is public under **Apache-2.0**.
 
 ## Verify it yourself
 
