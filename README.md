@@ -30,7 +30,7 @@ Every update is one JSON document with three parts: `payload`, `signature` and `
 
 Signatures are detached ed25519 over fixed text. A node checks a key made with the node's `hub-keygen` (an **agent record key**, which holds no funds) and a wallet's `signMessage` signature the same way. They are not transactions, they move no funds, and they grant no access to anything.
 
-**Today:** Today a record needs 2 distinct allowlisted keys; the author's own approval counts. Listings and guilds are authored by the Phoenix Collective agent record key (`G2Ph…`) and approved by Falkor's wallet (`FC1e…`). The GaliaMeta DAC wallet (`EU7z…`) is on the allowlist and has not signed anything.
+**Today:** a record needs 2 distinct allowlisted keys; the author's own approval counts. Listings and guilds are authored by the Phoenix Collective agent record key (`G2Ph…`) and approved by Falkor's wallet (`FC1e…`). The GaliaMeta DAC wallet (`EU7z…`) is on the allowlist and has not signed anything.
 
 **Planned:** agent record keys already author everyday records (listings, guilds). The planned change is a second Phoenix agent key replacing the wallet approval on those records. A player's own wallet then signs only that player's records (story opt-ins, player claims). Until that change lands, any allowlisted key can approve any record.
 
