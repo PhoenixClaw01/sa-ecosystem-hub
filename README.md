@@ -30,9 +30,9 @@ Every update is one JSON document with three parts: `payload`, `signature` and `
 
 Signatures are detached ed25519 over fixed text. A node checks a key made with the node's `hub-keygen` (an **agent record key**, which holds no funds) and a wallet's `signMessage` signature the same way. They are not transactions, they move no funds, and they grant no access to anything.
 
-**Today:** the Phoenix Collective node uses threshold 2 and counts the author's own approval. Listings and guilds are authored by the Phoenix Collective agent record key (`G2Ph…`) and approved by Falkor's wallet (`FC1e…`). The GaliaMeta DAC wallet (`EU7z…`) is on the allowlist and has not signed anything.
+**Today:** Today a record needs 2 distinct allowlisted keys; the author's own approval counts. Listings and guilds are authored by the Phoenix Collective agent record key (`G2Ph…`) and approved by Falkor's wallet (`FC1e…`). The GaliaMeta DAC wallet (`EU7z…`) is on the allowlist and has not signed anything.
 
-**Planned:** agent record keys sign everyday records (listings, guilds) and a second Phoenix agent key replaces the wallet approval there. A player's own wallet signs only that player's records (story opt-ins, player claims). Until that migration lands, any allowlisted key can approve any record.
+**Planned:** agent record keys already author everyday records (listings, guilds). The planned change is a second Phoenix agent key replacing the wallet approval on those records. A player's own wallet then signs only that player's records (story opt-ins, player claims). Until that change lands, any allowlisted key can approve any record.
 
 ## Listings
 
@@ -60,7 +60,7 @@ Phoenix Collective (Falkor's team) may sign curator listings for other projects,
 
 ## Claim your listing (self-claim)
 
-If you run a listed project, guild or business, or you are a player, you can claim your listing with your own wallet. A claim is a **signed claim record**: your wallet signs a short fixed message (`signMessage`, not a transaction; it moves nothing) that binds that wallet to one listing or guild on this hub. Today every claim, including guild and business claims, is wallet-signed. **Proposed, not built:** guilds and businesses may claim with an agent record key instead, since most businesses have no wallet.
+If you run a listed project, guild or business, or you are a player, you can claim your listing with your own wallet. A claim is a **signed claim record**: your wallet signs a short fixed message (`signMessage`, not a transaction; it moves nothing) that binds that wallet to one listing or guild on this hub. For players, guilds and businesses alike, the claim path uses a wallet signature (no claims exist yet). **Proposed, not built:** guilds and businesses may claim with an agent record key instead, since most businesses have no wallet.
 
 - **Players** are checked automatically against their on-chain Star Atlas **Player Profile**: the claim goes active when the wallet is a current key on that profile.
 - **Guilds and businesses** go active when a hub curator **countersigns** the claim.
@@ -100,7 +100,7 @@ There is no separate opt-in database. This repository is the whole record.
 | Falkor (Phoenix steward) | `FC1eRr99GGJZuc4KZeUivBpbSMGvjcBB839KaEfAuhcq` | Wallet. Approver (Phantom `signMessage`) |
 | GaliaMeta DAC | `EU7zwmY8QP7B9FFUUyMu1eTNkrwuj27NQkgEmNMWreq1` | Wallet. On the allowlist, unused so far |
 
-The Phoenix Collective node serves an update only with **two** distinct approvals (threshold 2), and the author's own approval counts as one of them: Phoenix Collective (agent record key) plus Falkor (wallet). The early testnet dry run used threshold 1. Labels come from each node's own trusted signer file, not from this repository, and every node operator chooses its own signers and threshold.
+On the Phoenix Collective node: Today a record needs 2 distinct allowlisted keys; the author's own approval counts. That is Phoenix Collective (agent record key) as author plus Falkor (wallet). The early testnet dry run used threshold 1. Labels come from each node's own trusted signer file, not from this repository, and every node operator chooses its own signers and threshold.
 
 ## What a signature means
 
